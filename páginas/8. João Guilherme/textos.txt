@@ -18,3 +18,35 @@ O calor extremo ode ser um grande desafio para a saúde, principalmente para pes
 
 2.3 Falta de energia elétrica:
 	A energia elétrica também é um recurso importante para diminuir os efeitos das ondas de calor extremos, permitindo o uso de ventiladores, geladeira e outros eletrodomésticos que geram conforto e convervam os alimentos.
+
+
+2.4. Qual a importância da moradia digna para a diminuição dos efeitos da desigualdade climática:
+	A moradia digna é uma forma de reduzir os efeitos da desigualdade climática ao oferecer às pessoas condições mínimas de conforto, segurança, higiene e saúde.
+
+3. Conclusão: o que aprendemos sobre a Meteorologia e as mudanças climáticas.
+
+3.1 Meteorologia:
+	A meteorologia é a ciência responsável por estudar as condições e fenômenos da atmosfera para prever o tempo e compreender as mudanças climáticas.
+
+3.2 Previsão do tempo:
+	A previsão do tempo tem como objetivo antecipar condições atmosféricas e planejar atividades. Utiliza variáveis medidas por ferramentas específicas.
+
+3.3 Eventos extremos:
+	Eventos extremos são fenômenos climáticos intensicados por causa das mudanças climáticas:
+	.Incêndios florestais;
+	.Tempestades intensas;
+	.Furacões e tornados;
+	.Enchentes;
+	.Secas;
+	.Ondas de frio;
+	Ondas de calor;
+
+3.4 Variáveis climáticas:
+	São um conjunto de condições atmosféricas monitoradas para prever o tempo:
+		.Temperatura: Indica o grau de agitação térmica do ar. É medido com o termômetro;
+		.Umidade relativa do ar: Quantia de vapor-d'água presente na atmosfera. É medido com o higrômetro;
+		.Pressão atmosférica: Forçado ar sob a superfície terrestre. É medido com o barômetro;
+		.Ventos: Movimento do ar entre áreas com diferentes pressões atmosféricas. É medido com o anemômetro(velocidade) e biruta(direção);
+		.Massa de ar: Grabde volume de ar com características semelhantes. A interação entre massas de ar forma as frentes:
+			.Frente fria: ar frio avança e desloca o ar quente para cima, provocando vento, chuva e queda de temperatura;
+			.Frente quente: ar quente avança lentamente sobre o ar frio, elevando a temperatura e causando chuvas leves;
