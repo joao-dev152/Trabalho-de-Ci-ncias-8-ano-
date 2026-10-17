@@ -1,6 +1,9 @@
 [gd_resource type="Theme" format=3 uid="uid://lqebd2uevy4f"]
 
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="1_dpbi7"]
+
 [resource]
 Button/colors/font_color = Color(1, 1, 1, 1)
 Button/colors/font_outline_color = Color(0, 0, 0, 1)
 Button/constants/outline_size = 8
+Button/fonts/font = ExtResource("1_dpbi7")

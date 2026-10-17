@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://clos62hgrecs5"]
 
-[ext_resource type="Texture2D" uid="uid://c77jmbyqa82s" path="res://Clouds/Clouds 1/1.png" id="1_dcq5j"]
-[ext_resource type="Texture2D" uid="uid://d4d6cwy3rusdh" path="res://Clouds/Clouds 1/2.png" id="2_sfwlc"]
-[ext_resource type="Texture2D" uid="uid://cj5xars0vgtdc" path="res://Clouds/Clouds 1/3.png" id="3_vyldk"]
-[ext_resource type="Texture2D" uid="uid://c3vnc7rtxgmne" path="res://Clouds/Clouds 1/4.png" id="4_pevr5"]
+[ext_resource type="Texture2D" uid="uid://c77jmbyqa82s" path="res://data/assets/Clouds/Clouds 1/1.png" id="1_dcq5j"]
+[ext_resource type="Texture2D" uid="uid://d4d6cwy3rusdh" path="res://data/assets/Clouds/Clouds 1/2.png" id="2_sfwlc"]
+[ext_resource type="Texture2D" uid="uid://cj5xars0vgtdc" path="res://data/assets/Clouds/Clouds 1/3.png" id="3_vyldk"]
+[ext_resource type="Texture2D" uid="uid://c3vnc7rtxgmne" path="res://data/assets/Clouds/Clouds 1/4.png" id="4_pevr5"]
 [ext_resource type="Theme" uid="uid://lqebd2uevy4f" path="res://data/button-theme.tres" id="5_sfwlc"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="5_vyldk"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jsi7b"]
 
@@ -77,6 +78,7 @@ grow_vertical = 2
 layout_mode = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("5_vyldk")
 theme_override_font_sizes/font_size = 32
 text = "TRABALHO DE CIÊNCIAS
 -Meteorologia e Mudanças  Climáticas-"
