@@ -1,12 +1,12 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1792257902
+::res://::1792258475
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 tittle-screen.tscn::PackedScene::5574969630681818554::1792257902::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://lqebd2uevy4f::::res://data/button-theme.tres<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 ::res://data/assets/::1792257902
 ::res://data/assets/Clouds/::1792248927
-::res://data/assets/Clouds/Clouds 1/::1792248927
+::res://data/assets/Clouds/Clouds 1/::1792257902
 1.png::CompressedTexture2D::208397424256525292::1665778820::1792257902::1::::<><><>0<>0<>144bdb3db7c24c528f196a38993a055b<>res://.godot/imported/1.png-6c80c72b69b45f6d67a685d6c14909ff.ctex::
 2.png::CompressedTexture2D::9202818642092717541::1665778834::1792257902::1::::<><><>0<>0<>71944a5fc4017ca2570b9e640c24db70<>res://.godot/imported/2.png-ac755fe1314ce5e34a709cfa41f004e4.ctex::
 3.png::CompressedTexture2D::5467869705451554004::1665778852::1792257902::1::::<><><>0<>0<>6eea2cdec2d17d9af1829863bce72b7d<>res://.godot/imported/3.png-f5f1233f1358f49b970144a711120e8b.ctex::
