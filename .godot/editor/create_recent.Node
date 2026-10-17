@@ -1,0 +1,9 @@
+HSeparator
+Button
+VBoxContainer
+Label
+Control
+CanvasLayer
+Sprite2D
+Parallax2D
+AnimationPlayer

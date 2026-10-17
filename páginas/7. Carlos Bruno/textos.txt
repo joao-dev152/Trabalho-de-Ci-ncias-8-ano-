@@ -1,0 +1,47 @@
+*EVENTOS CLIMÁTICOS EXTREMOS 
+
+1. O que define um evento extremo?
+Não é só fazer calor ou chover forte. É quando um dado climático fica muito acima ou muito abaixo da média histórica de 30 anos de uma região. O INMET e o IPCC usam percentis: se fica nos 5% mais intensos já registrados, é extremo.
+
+O aquecimento global não cria o evento, ele deixa mais frequente e mais intenso. A atmosfera mais quente retém 7% mais vapor d'água a cada 1°C, então tem mais energia pra tempestades e mais combustível pra secas.
+
+2. Os 5 principais grupos
+
+2.1 Ondas de Calor e de Frio
+Onda de calor: No Brasil, critério do INMET: 5 dias seguidos com 5°C acima da média. Mata mais que enchente no mundo. Causa colapso do SUS com insolação, infarto, desidratação. Quebra safra de milho e soja, e o sistema elétrico não aguenta com ar-condicionado ligado.
+
+Onda de frio: Avanço rápido da Massa Polar Atlântica. Para nós no Nordeste é menos intensa, mas no Sul e Sudeste traz geada negra que mata café, cana e pastagem. Nas cidades, população em situação de rua é a mais vulnerável.
+
+.2.2 Secas
+É o desastre de desenvolvimento mais lento. Começa meteorológica, vira agrícola e termina hidrológica com Cantareira, São Francisco e reservatórios vazios. No Semiárido brasileiro, o período de seca já aumentou de 6 para 9 meses em 40 anos. Leva à perda de rebanho, aumento do preço do alimento e êxodo rural.
+
+.2.3 Enchentes e Inundações
+Toda cidade brasileira tem rio canalizado. Quando chove acima de 80mm em 1 hora em área impermeabilizada, a água não infiltra. O lixo entope galeria, a encosta sem mata desliza. É o desastre mais caro do Brasil: 1 real investido em drenagem e reflorestamento de topo de morro economiza 6 reais em reconstrução.
+
+.2.4 Ciclones
+O Atlântico Sul não tinha furacão até o Catarina em 2004. Hoje temos 1 a 2 ciclones bombas por ano no Sul. Vento de 120 km/h destelha casas, derruba rede elétrica e provoca ressaca que come 20 metros de praia em uma noite. Está cada vez mais ao norte.
+
+.2.5 Incêndios Florestais
+Pantanal perdeu 30% em 2020, Cerrado queima todo ano. Fogo natural existe, mas 99% dos incêndios no Brasil começam com ação humana: bituca, limpeza de pasto ou desmatamento. Com seca e calor, uma faísca vira 100 mil hectares queimados. A fumaça de Corumbá chega a São Paulo e fecha aeroporto.
+
+3. Evento Extremo vs. Desastre Ambiental
+
+Isso aqui é o ponto mais importante.
+
+Evento extremo = FENÔMENO FÍSICO. É neutro. Acontece na atmosfera.
+Desastre ambiental = IMPACTO SOCIAL. É quando o fenômeno atinge uma sociedade despreparada.
+
+Nenhum desastre é 100% natural. Ele sempre precisa de 3 coisas:
+1.  Ameaça: A chuva, o vento, o calor
+2.  Exposição: Gente morando onde não deveria - várzea, encosta, beira de rio
+3.  Vulnerabilidade: Falta de plano de defesa civil, casa de taipa, sem seguro, sem hospital perto
+
+Por isso a ONU não usa mais o termo "desastre natural". Usa "desastre". Porque a parte que mais mata é a falta de planejamento humano. Uma cidade como Tóquio recebe tufão todo ano e tem 2 mortes. Uma cidade sem infraestrutura recebe a mesma chuva e tem 200 mortes.
+
+4. Consequências em Cascata
+
+Para a população: É uma crise de saúde pública. Depois da enchente vem leptospirose, depois da seca vem desnutrição, depois da fumaça vem crise de asma. A Defesa Civil calcula 2 milhões de desabrigados por ano no Brasil por clima. E quem sofre mais são sempre os mesmos: periferia, zona rural e povos indígenas.
+
+Para a natureza: O bioma não se recupera no mesmo ritmo. Uma mata queimada leva 50 anos para voltar. O solo exposto pela enchente perde fertilidade e vai parar no rio, matando peixes por falta de oxigênio. É efeito dominó.
+
+Para a economia: O Banco Mundial calcula que o Brasil perde 2,5% do PIB por ano com eventos climáticos. É safra perdida, seguro agrícola que não cobre, rodovia interditada, porto fechado, energia hidrelétrica cara porque tem que ligar termelétrica poluente. O preço do café e do leite no supermercado que você vê hoje já é reflexo da onda de calor de 6 meses atrás.

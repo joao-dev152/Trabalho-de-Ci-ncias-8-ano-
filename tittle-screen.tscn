@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://clos62hgrecs5"]
+
+[ext_resource type="Texture2D" uid="uid://c77jmbyqa82s" path="res://Clouds/Clouds 1/1.png" id="1_dcq5j"]
+[ext_resource type="Texture2D" uid="uid://d4d6cwy3rusdh" path="res://Clouds/Clouds 1/2.png" id="2_sfwlc"]
+[ext_resource type="Texture2D" uid="uid://cj5xars0vgtdc" path="res://Clouds/Clouds 1/3.png" id="3_vyldk"]
+[ext_resource type="Texture2D" uid="uid://c3vnc7rtxgmne" path="res://Clouds/Clouds 1/4.png" id="4_pevr5"]
+[ext_resource type="Theme" uid="uid://lqebd2uevy4f" path="res://data/button-theme.tres" id="5_sfwlc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jsi7b"]
+
+[node name="tittle-screen" type="Node2D" unique_id=492459828]
+
+[node name="1" type="Parallax2D" parent="." unique_id=1712968529]
+editor_description = "background layer 0"
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="1" unique_id=1368514941]
+scale = Vector2(2, 2)
+texture = ExtResource("1_dcq5j")
+centered = false
+
+[node name="2" type="Parallax2D" parent="." unique_id=20431080]
+editor_description = "background layer 1"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(288, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="2" unique_id=998785758]
+scale = Vector2(2, 2)
+texture = ExtResource("2_sfwlc")
+centered = false
+
+[node name="3" type="Parallax2D" parent="." unique_id=748480044]
+editor_description = "background layer 2"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(250, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="3" unique_id=1964352203]
+scale = Vector2(2, 2)
+texture = ExtResource("3_vyldk")
+centered = false
+
+[node name="4" type="Parallax2D" parent="." unique_id=1874604402]
+editor_description = "background layer 3"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(200, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="4" unique_id=700833391]
+scale = Vector2(2, 2)
+texture = ExtResource("4_pevr5")
+centered = false
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1025858966]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1075422418]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control" unique_id=1604431264]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -149.0
+offset_top = -24.5
+offset_right = 149.0
+offset_bottom = 24.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/VBoxContainer" unique_id=102993822]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_font_sizes/font_size = 32
+text = "TRABALHO DE CIÊNCIAS
+-Meteorologia e Mudanças  Climáticas-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/VBoxContainer" unique_id=1558351944]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_jsi7b")
+
+[node name="Button" type="Button" parent="CanvasLayer/Control/VBoxContainer" unique_id=262433448]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("5_sfwlc")
+text = "COMEÇAR"
+
+[node name="Button2" type="Button" parent="CanvasLayer/Control/VBoxContainer" unique_id=366648646]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("5_sfwlc")
+text = "CREDITOS"
