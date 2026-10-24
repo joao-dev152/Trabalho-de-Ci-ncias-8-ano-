@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://clos62hgrecs5"]
 
 [ext_resource type="Texture2D" uid="uid://c77jmbyqa82s" path="res://data/assets/Clouds/Clouds 1/1.png" id="1_dcq5j"]
+[ext_resource type="Script" uid="uid://dboeqpvyh85hu" path="res://scripts/tittle_screen.gd" id="1_vyldk"]
 [ext_resource type="Texture2D" uid="uid://d4d6cwy3rusdh" path="res://data/assets/Clouds/Clouds 1/2.png" id="2_sfwlc"]
 [ext_resource type="Texture2D" uid="uid://cj5xars0vgtdc" path="res://data/assets/Clouds/Clouds 1/3.png" id="3_vyldk"]
 [ext_resource type="Texture2D" uid="uid://c3vnc7rtxgmne" path="res://data/assets/Clouds/Clouds 1/4.png" id="4_pevr5"]
 [ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="5_vyldk"]
 
 [node name="tittle-screen" type="Node2D" unique_id=492459828]
+script = ExtResource("1_vyldk")
 
 [node name="1" type="Parallax2D" parent="." unique_id=1712968529]
 editor_description = "background layer 0"
