@@ -1,7 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1792258475
+::res://::1792872264
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-tittle-screen.tscn::PackedScene::5574969630681818554::1792257902::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://lqebd2uevy4f::::res://data/button-theme.tres<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf
+tittle-screen.tscn::PackedScene::5574969630681818554::1792258606::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://lqebd2uevy4f::::res://data/button-theme.tres<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 ::res://data/assets/::1792257902

@@ -1,0 +1,20 @@
+Temperatura e Nebulosidade:
+
+- Temperatura: indica o grau de agitação das partículas de um corpo ou substância e é medida em graus Celsius (°C) no Brasil. Os meteorologistas acompanham suas variações para analisar as condições térmicas da atmosfera e prever o tempo.
+
+- Nebulosidade: corresponde à quantidade de nuvens que cobrem o céu em determinado local e momento. Os meteorologistas observam as nuvens, sua altitude e seus tipos para analisar as condições atmosféricas e prever a possibilidade de chuvas.
+
+- Tipos de nuvens:
+
+- Nuvens altas: cirrus, cirrostratus e cirrocumulus.
+- Nuvens médias: altocumulus e altostratus.
+- Nuvens baixas: stratocumulus, stratus, cumulus e nimbostratus. 
+   - As nimbostratus são nuvens escuras, associadas a chuvas contínuas e geralmente de baixa intensidade.
+- Nuvens de grande desenvolvimento vertical: 
+   - São às cumulonimbus, associadas a tempestades, chuvas intensas, ventos fortes, raios e, em alguns casos, granizo.
+
+
+
+Experimento: A nuvem no pote.
+
+O experimento demonstra a condensação, que é processo em que o vapor de água se transforma em pequenas gotículas líquidas, como acontece na formação das nuvens na atmosfera.

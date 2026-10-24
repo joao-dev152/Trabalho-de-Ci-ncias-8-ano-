@@ -1,0 +1,10 @@
+Ventos
+	Como o ar se movimenta?
+		O ar entra em movimento por causa da diferença de pressão atmosférica, em que o ar tende a se deslocar das áreas de maior pressão atmosférica para as áreas de menor pressão. Quando o ar se move horizontalmente ele é chamado de vento, mas quando se move verticalmente é chamado de corrente de ar.
+	Como "medir" o ar?
+		A velocidade dos ventos é medida pelo anemômetro, já a sua direção é indicada pela biruta. Ventos com velocidades superiores a 60 km/h podem oferecer alguns riscos, mas quando ultrapassam 100 km/h podem ser eventos meteorológicos extremos.
+	Como diferenciar os fenômenos atmosféricos?
+		Ciclone: é um sistema atmosférico de baixa pressão, podendo ser tropical ou extratropical
+		Furacão: é um ciclone tropical que se forma no Oceano Atlântico Norte ou Pacífico Nordeste e é classificado em 5 categorias de acordo com a Escala Saffir-Simpson.
+		Tufão: é um ciclone tropical que se forma no Oceano Pacifico Noroeste, especialmente perto da Ásia.
+		Tornado: é um fenômeno atmosférico de pequena escala que se foma e acontece no continente, ele tem seis categorias de acordo com a Escala Fujita.

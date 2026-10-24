@@ -1,17 +1,22 @@
 1. Precipitação 
-
 Quando se vê a presença de nuvens, é comum associá-las à chegada de chuvas - porém, nem sempre a presença de nuvens se limita somente a chuvas.
-Quando as nuvens acumulam grande quantidade de água ou gelo, é comum que ocorram diferentes formas de precipitação. A precipitação é o termo utilizado para se referir a toda água que cai do céu em direção a superfície da terra.
-A chuva é a forma mais comum de precipitação, porém, em temperaturas mais baixas, pode também ocorrer granizo e neve.
-O instrumento utilizado para medir a precipitação é chamado pluviômetro, o qual coleta a água que cai em determinado intervalo de tempo. A quantidade de água registrada é expressa em milímetros (mm). A unidade representa a altura da lâmina de água sobre uma superfície da terra; ou seja, se em uma chuva são registrados 10 mm, a água armazenada geraria uma camada de 10 milímetros de altura sobre o solo - excluindo a possibilidade de infiltração, escoamento ou evaporação.
+ Quando as nuvens acumulam grande quantidade de água ou gelo, é comum que ocorram diferentes formas de precipitação. A precipitação é o termo utilizado para se referir a toda água que cai do céu em direção a superfície da terra.
+ A chuva é a forma mais comum de precipitação, porém, em temperaturas mais baixas, pode também ocorrer granizo e neve.
+  O instrumento utilizado para medir a precipitação é chamado pluviômetro, o qual coleta a água que cai em determinado intervalo de tempo. A quantidade de água registrada é expressa em milímetros (mm). A unidade representa a altura da lâmina de água sobre uma superfície da terra; ou seja, se em uma chuva são registrados 10 mm, a água armazenada geraria uma camada de 10 milímetros de altura sobre o solo - excluindo a possibilidade de infiltração, escoamento ou evaporação.
 
 2. Umidade do ar:
+ A unidade relativa do ar indica quanto vapor-d'água existe no ar em determinado momento e temperatura. Ou seja, demonstra se o ar está mais seco ou mais úmido, dependendo da quantidade de água presente na atmosfera.
+ A umidade é medida pelo higrômetro, instrumento que expressa em porcentagem os valores de umidade do ar.
 
-A unidade relativa do ar indica quanto vapor-d'água existe no ar em determinado momento e temperatura. Ou seja, demonstra se o ar está mais seco ou mais úmido, dependendo da quantidade de água presente na atmosfera.
-A umidade é medida pelo higrômetro, instrumento que expressa em porcentagem os valores de umidade do ar.
-
-2.1 Valores abaixo de 30%: Ar seco.
-2.2 Entre 40% e 70%: Adequados.
-2.3 Acima de 60%: O ar é classificado como úmido.
+- Valores abaixo de 30%: Ar seco.
+- Entre 40% e 70%: Adequados.
+- Acima de 60%: O ar é classificado como úmido.
 
 Ambos valores de umidade muito baixos ou muito elevados podem favorecer o desconforto respiratório e agravar ou causar problemas respiratórios.
+
+3. Pressão atmosférica
+
+A pressão atmosférica é a força que a coluna de ar exerce sobre determinada área da superfície terrestre. Esta pressão é medida por meio de um instrumento chamado barômetro.
+As variações da pressão atmosférica estão relacionadas a condições do tempo, principalmente à umidade do ar e à ocorrência de chuvas.
+Uma pressão atmosférica elevada indica ar mais seco, ou seja, com menor probabilidade de precipitação.
+ A queda da pressão, porém, ocorre em condições de maior umidade e pode indicar a chegada de chuvas.
