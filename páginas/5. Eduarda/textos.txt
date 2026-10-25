@@ -1,0 +1,12 @@
+Massas de ar e frentes
+-Massas de ar são volumes extensos de ar que apresentam suas próprias características de temperatura,umidade e pressão.Com seu deslocamento elas influenciam o tempo da região que passaram,aumentando ou diminuindo a temperatura,mudando a umidade do ar e fazendo ter a presença de ventos e chuvas. 
+ 
+-Dependendo de onde se formam ela podem ser classificadas em 3 tipos,sendo eles:
+•Massas polares:Se formam em regiões polares e possuem temperaturas baixas.
+•Massas equatoriais:Se formam perto da linha do Equador e são quentes.
+•Massas tropicais:Se formam perto dos trópicos de Câncer ou Capricórnio e também são quentes,mas menos intensas que as equatoriais
+
+-Frentes:
+ As frente se formam quando duas massas de ar com características diferentes de encontram.Tem 2 tipos de frentes que são elas:
+•Frentes frias:Elas se formam quando uma massa de ar fria avança,deslocando uma massa de ar quente e forçando ela a subir.
+•Frentes quentes:acontece quando uma massa de ar quente avança sobre uma massa de ar frio que permanece parada.
