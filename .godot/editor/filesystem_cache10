@@ -1,7 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1792954641
+::res://::1793049012
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-tittle-screen.tscn::PackedScene::5574969630681818554::1792873066::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://dboeqpvyh85hu::::res://scripts/tittle_screen.gd<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf
+tittle-screen.tscn::PackedScene::5574969630681818554::1792954672::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://dboeqpvyh85hu::::res://scripts/tittle_screen.gd<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 ::res://data/assets/::1792257902
@@ -24,7 +24,8 @@ textos.txt::TextFile::-1::1792872637::0::1::::<><><>0<>0<><>::
 textos.txt::TextFile::-1::1792872558::0::1::::<><><>0<>0<><>::
 ::res://páginas/4. Clarice/::1792872431
 textos.txt::TextFile::-1::1792872431::0::1::::<><><>0<>0<><>::
-::res://páginas/5. Eduarda/::1792249207
+::res://páginas/5. Eduarda/::1792954667
+textos.txt::TextFile::-1::1792954667::0::1::::<><><>0<>0<><>::
 ::res://páginas/6. Samuel/::1792249213
 ::res://páginas/7. Carlos Bruno/::1792250730
 textos.txt::TextFile::-1::1792250730::0::1::::<><><>0<>0<><>::
