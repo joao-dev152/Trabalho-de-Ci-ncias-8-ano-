@@ -1,3 +1,10 @@
+AnimationPlayer
+Polygon2D
+Line2D
+MeshInstance2D
+Node2D
+Parallax2D
+ColorRect
 HSeparator
 Button
 VBoxContainer
@@ -5,5 +12,3 @@ Label
 Control
 CanvasLayer
 Sprite2D
-Parallax2D
-AnimationPlayer

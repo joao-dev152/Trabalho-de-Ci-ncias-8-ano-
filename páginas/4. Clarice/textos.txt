@@ -1,4 +1,4 @@
-Ventos
+1. Ventos
 	Como o ar se movimenta?
 		O ar entra em movimento por causa da diferença de pressão atmosférica, em que o ar tende a se deslocar das áreas de maior pressão atmosférica para as áreas de menor pressão. Quando o ar se move horizontalmente ele é chamado de vento, mas quando se move verticalmente é chamado de corrente de ar.
 	Como "medir" o ar?

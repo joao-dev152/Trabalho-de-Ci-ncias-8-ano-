@@ -1,0 +1,197 @@
+[gd_scene format=3 uid="uid://rbnsdc6ovs3b"]
+
+[ext_resource type="Texture2D" uid="uid://c77jmbyqa82s" path="res://data/assets/Clouds/Clouds 1/1.png" id="1_eoc6l"]
+[ext_resource type="Texture2D" uid="uid://d4d6cwy3rusdh" path="res://data/assets/Clouds/Clouds 1/2.png" id="2_i4n2o"]
+[ext_resource type="Texture2D" uid="uid://cj5xars0vgtdc" path="res://data/assets/Clouds/Clouds 1/3.png" id="3_rvqbu"]
+[ext_resource type="Texture2D" uid="uid://c3vnc7rtxgmne" path="res://data/assets/Clouds/Clouds 1/4.png" id="4_u81td"]
+[ext_resource type="Texture2D" uid="uid://k6hu5ncxbtuh" path="res://data/assets/homi_skiando_na_neve.png" id="5_i4n2o"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_h4t55"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+
+[sub_resource type="Animation" id="Animation_i4n2o"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HomiSkiandoNaNeve:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(457, 321)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("HomiSkiandoNaNeve:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.79287076]
+}
+
+[sub_resource type="Animation" id="Animation_rvqbu"]
+resource_name = "homis_skiando_na_neve"
+length = 3.0000000000000004
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HomiSkiandoNaNeve:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.37, 1.46, 1.56, 1.63, 1.7, 1.78, 1.86, 1.94, 2.02, 2.12, 2.21),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(457, 321), Vector2(197, 594), Vector2(191.99998, 592), Vector2(186.99998, 592), Vector2(174, 593), Vector2(166, 593), Vector2(166, 593), Vector2(159, 596), Vector2(152.00002, 601), Vector2(143, 609), Vector2(132.00002, 626), Vector2(124, 652.00006)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("HomiSkiandoNaNeve:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.36, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.79287076, -0.79287076, 6.2831855]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_u81td"]
+_data = {
+&"RESET": SubResource("Animation_i4n2o"),
+&"homis_skiando_na_neve": SubResource("Animation_rvqbu")
+}
+
+[node name="page 0 - intro" type="Node2D" unique_id=163488696]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=493827699]
+offset_left = -3083.0
+offset_top = -1557.0
+offset_right = 4451.0
+offset_bottom = 1503.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="parallax" type="Node2D" parent="." unique_id=1585236059]
+
+[node name="1" type="Parallax2D" parent="parallax" unique_id=1595685617]
+editor_description = "background layer 0"
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="parallax/1" unique_id=325637264]
+scale = Vector2(2, 2)
+texture = ExtResource("1_eoc6l")
+centered = false
+
+[node name="2" type="Parallax2D" parent="parallax" unique_id=300930181]
+editor_description = "background layer 1"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(144, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="parallax/2" unique_id=2140052429]
+scale = Vector2(2, 2)
+texture = ExtResource("2_i4n2o")
+centered = false
+
+[node name="3" type="Parallax2D" parent="parallax" unique_id=308359375]
+editor_description = "background layer 2"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(125, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="parallax/3" unique_id=696814974]
+scale = Vector2(2, 2)
+texture = ExtResource("3_rvqbu")
+centered = false
+
+[node name="4" type="Parallax2D" parent="parallax" unique_id=812351186]
+editor_description = "background layer 3"
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(100, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="parallax/4" unique_id=850048846]
+scale = Vector2(2, 2)
+texture = ExtResource("4_u81td")
+centered = false
+
+[node name="mountains" type="Node2D" parent="." unique_id=374675406]
+
+[node name="green" type="MeshInstance2D" parent="mountains" unique_id=659689749]
+modulate = Color(0, 0.6509804, 0.45490196, 1)
+position = Vector2(330.92822, 440.0718)
+rotation = -2.6179938
+scale = Vector2(165.21277, 146.5)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="green2" type="MeshInstance2D" parent="mountains" unique_id=215675606]
+modulate = Color(0, 0.6509804, 0.45490196, 1)
+position = Vector2(549.99994, 440.00003)
+rotation = -0.7853982
+scale = Vector2(165.21277, 146.5)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="green3" type="MeshInstance2D" parent="mountains" unique_id=1514365323]
+modulate = Color(0, 0.6509804, 0.45490196, 1)
+position = Vector2(803, 444.00003)
+rotation = -1.0471976
+scale = Vector2(165.21277, 146.5)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="green4" type="MeshInstance2D" parent="mountains" unique_id=719774016]
+modulate = Color(0, 0.6509804, 0.45490196, 1)
+position = Vector2(1120, 461.00003)
+rotation = 1.3089969
+scale = Vector2(165.21277, 146.5)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="green5" type="MeshInstance2D" parent="mountains" unique_id=524855853]
+modulate = Color(0, 0.6509804, 0.45490196, 1)
+position = Vector2(22, 451.99997)
+rotation = 0.2617994
+scale = Vector2(165.21277, 146.5)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="white" type="MeshInstance2D" parent="mountains" unique_id=837414927]
+modulate = Color(0.7877592, 0.7877593, 0.78775877, 1)
+position = Vector2(140.99998, 547)
+rotation = -0.8109323
+scale = Vector2(369.25003, 331.25)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="white2" type="MeshInstance2D" parent="mountains" unique_id=1202350155]
+modulate = Color(0.87761533, 0.87761587, 0.87761545, 1)
+position = Vector2(703.3333, 544.49603)
+rotation = -0.81093234
+scale = Vector2(304.4051, 331.25)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="white3" type="MeshInstance2D" parent="mountains" unique_id=1996054907]
+modulate = Color(0.847474, 0.84747463, 0.84747416, 1)
+position = Vector2(478.2283, 653.47296)
+rotation = -0.8109323
+scale = Vector2(459.79596, 484.12903)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="white4" type="MeshInstance2D" parent="mountains" unique_id=27883299]
+modulate = Color(0.9137255, 0.9137255, 0.9137255, 1)
+position = Vector2(919.84546, 600.84216)
+rotation = -0.81093234
+scale = Vector2(535.75684, 425.58264)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="HomiSkiandoNaNeve" type="Sprite2D" parent="." unique_id=679916829]
+position = Vector2(457, 321)
+rotation = -0.79287076
+texture = ExtResource("5_i4n2o")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1051573131]
+libraries/ = SubResource("AnimationLibrary_u81td")
+autoplay = &"homis_skiando_na_neve"
