@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://bytpuxcx4i7ga"]
+
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="1_y2j5c"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4s65b"]
+
+[node name="page_2_Temperatura e Nebulosidade" type="Node2D" unique_id=537147640]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=394596836]
+offset_left = -3083.0
+offset_top = -1557.0
+offset_right = 4451.0
+offset_bottom = 1503.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="cenario" type="Node2D" parent="." unique_id=751256370]
+
+[node name="mountain" type="MeshInstance2D" parent="cenario" unique_id=1785791933]
+modulate = Color(0, 0.6745098, 0, 1)
+position = Vector2(163.57503, 602.575)
+rotation = -0.7853982
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_4s65b")
+
+[node name="mountain2" type="MeshInstance2D" parent="cenario" unique_id=295414834]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(393.00006, 660.00006)
+rotation = 0.7920004
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_4s65b")
+
+[node name="mountain4" type="MeshInstance2D" parent="cenario" unique_id=911972721]
+modulate = Color(0, 0.6156863, 0, 1)
+position = Vector2(1020, 575)
+rotation = 0.7853982
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_4s65b")
+
+[node name="mountain3" type="MeshInstance2D" parent="cenario" unique_id=837975567]
+modulate = Color(0, 0.6745098, 0, 1)
+position = Vector2(677.00006, 630)
+rotation = -0.7853982
+scale = Vector2(359.94006, 408.78787)
+mesh = SubResource("BoxMesh_4s65b")
+
+[node name="ground" type="MeshInstance2D" parent="cenario" unique_id=1414790077]
+modulate = Color(0, 0.7137255, 0, 1)
+position = Vector2(575.5, 623)
+scale = Vector2(1159, 55.999966)
+mesh = SubResource("BoxMesh_4s65b")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1855761862]
+position = Vector2(235, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1498977950]
+position = Vector2(251, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1056295558]
+position = Vector2(270, 594)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1018095368]
+position = Vector2(289, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=595100769]
+position = Vector2(302, 594)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D6" type="Sprite2D" parent="." unique_id=1918165216]
+position = Vector2(322, 593)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D7" type="Sprite2D" parent="." unique_id=1373499998]
+position = Vector2(340, 594)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D8" type="Sprite2D" parent="." unique_id=527164918]
+position = Vector2(311, 593)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D9" type="Sprite2D" parent="." unique_id=1052005475]
+position = Vector2(221, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D10" type="Sprite2D" parent="." unique_id=6859464]
+position = Vector2(351, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D11" type="Sprite2D" parent="." unique_id=1685939077]
+position = Vector2(331, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D12" type="Sprite2D" parent="." unique_id=1959578295]
+position = Vector2(279, 592)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D13" type="Sprite2D" parent="." unique_id=1258584300]
+position = Vector2(260, 593)
+texture = ExtResource("1_y2j5c")
+
+[node name="Sprite2D14" type="Sprite2D" parent="." unique_id=1469568975]
+position = Vector2(206, 592)
+texture = ExtResource("1_y2j5c")

@@ -1,14 +1,14 @@
+Node2D
+Sprite2D
+PointLight2D
 AnimationPlayer
 CanvasModulate
 MarginContainer
 PanelContainer
 Panel
 Label
-Node2D
 GPUParticles2D
 MeshInstance2D
 HSeparator
 RichTextLabel
 Polygon2D
-Line2D
-Parallax2D

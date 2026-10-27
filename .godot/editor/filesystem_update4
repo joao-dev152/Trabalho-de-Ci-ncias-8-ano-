@@ -1,7 +1,3 @@
-res://páginas/1. Alana/page_0_intro.tscn
-res://páginas/6. Samuel/textos.txt
-res://páginas/1. Alana/page_1_previsao_do_tempo.tscn
-res://scripts/tittle_screen.gd
-res://páginas/1. Alana/textos.txt
-res://scripts/particle_group_control.gd
 res://scripts/page_1_previsao_do_tempo.gd
+res://páginas/1. Alana/page_1_previsao_do_tempo.tscn
+res://páginas/2. Anna Luiza/page_2_temperatura_e_nebulosidade.tscn

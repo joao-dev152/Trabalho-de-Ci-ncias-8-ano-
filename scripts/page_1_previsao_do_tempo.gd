@@ -27,10 +27,7 @@ func _input(event: InputEvent) -> void:
 		get_tree().change_scene_to_file("res://páginas/1. Alana/page_0_intro.tscn")
 	
 	if event.is_action_pressed("right-down") and _has_started:
-		print("página seguinte: faltando")
-		return
-		
 		animation_player.play("fade-out")
 		_is_turning_page = true
 		await animation_player.animation_finished
-		get_tree().change_scene_to_file("")
+		get_tree().change_scene_to_file("res://páginas/2. Anna Luiza/page_2_temperatura_e_nebulosidade.tscn")
