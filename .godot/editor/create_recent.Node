@@ -1,8 +1,10 @@
+CanvasModulate
+AnimationPlayer
+AnimatedSprite2D
+CanvasLayer
 Node2D
 Sprite2D
 PointLight2D
-AnimationPlayer
-CanvasModulate
 MarginContainer
 PanelContainer
 Panel
@@ -10,5 +12,3 @@ Label
 GPUParticles2D
 MeshInstance2D
 HSeparator
-RichTextLabel
-Polygon2D

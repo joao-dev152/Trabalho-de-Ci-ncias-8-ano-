@@ -1,17 +1,260 @@
 [gd_scene format=3 uid="uid://bytpuxcx4i7ga"]
 
+[ext_resource type="Script" uid="uid://c2us4b5cv7e6u" path="res://scripts/page_2_temperatura_e_nebulosidade.gd" id="1_5tt31"]
 [ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="1_y2j5c"]
+[ext_resource type="Texture2D" uid="uid://bw8ojwn4h73hl" path="res://data/assets/termometro-pixel-art.png" id="2_4s65b"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="4_ptakn"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="5_l4lpu"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_4s65b"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_5tt31"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ciuu"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(16, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ptakn"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4lpu"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(48, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_shnm2"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lojbp"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(80, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6fxk"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(96, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfdag"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(112, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6bnaj"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(128, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l8nnj"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(144, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmy75"]
+atlas = ExtResource("2_4s65b")
+region = Rect2(160, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8w0r3"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_5tt31")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_8ciuu")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_ptakn")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_l4lpu")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_shnm2")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_lojbp")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_v6fxk")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_kfdag")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_6bnaj")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_l8nnj")
+}, {
+"duration": 2.0,
+"texture": SubResource("AtlasTexture_kmy75")
+}],
+"loop": 2,
+"name": &"default",
+"speed": 0.5
+}]
+
+[sub_resource type="Animation" id="Animation_ccnhe"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.13333334, 0.25882354, 0.4862745, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_hsehc"]
+resource_name = "loop-ilumination"
+length = 40.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 40),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0.13333334, 0.25882354, 0.4862745, 1), Color(0.13333334, 0.6156863, 0.9490196, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ih2uo"]
+_data = {
+&"RESET": SubResource("Animation_ccnhe"),
+&"loop-ilumination": SubResource("Animation_hsehc")
+}
+
+[sub_resource type="Animation" id="Animation_shnm2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_characters")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_lojbp"]
+resource_name = "textos"
+length = 3.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_characters")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0, 28]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.5, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_v6fxk"]
+_data = {
+&"RESET": SubResource("Animation_shnm2"),
+&"textos": SubResource("Animation_lojbp")
+}
+
+[sub_resource type="Animation" id="Animation_8ciuu"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ptakn"]
+resource_name = "fade-in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_l4lpu"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_shnm2"]
+_data = {
+&"RESET": SubResource("Animation_8ciuu"),
+&"fade-in": SubResource("Animation_ptakn"),
+&"fade-out": SubResource("Animation_l4lpu")
+}
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_shnm2"]
+
 [node name="page_2_Temperatura e Nebulosidade" type="Node2D" unique_id=537147640]
+script = ExtResource("1_5tt31")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=394596836]
 offset_left = -3083.0
 offset_top = -1557.0
 offset_right = 4451.0
 offset_bottom = 1503.0
-color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+color = Color(0.13333334, 0.25882354, 0.4862745, 1)
 
 [node name="cenario" type="Node2D" parent="." unique_id=751256370]
 
@@ -49,58 +292,147 @@ position = Vector2(575.5, 623)
 scale = Vector2(1159, 55.999966)
 mesh = SubResource("BoxMesh_4s65b")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1855761862]
+[node name="homis" type="Node2D" parent="." unique_id=1822090822]
+
+[node name="Sprite2D" type="Sprite2D" parent="homis" unique_id=1855761862]
 position = Vector2(235, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1498977950]
+[node name="Sprite2D2" type="Sprite2D" parent="homis" unique_id=1498977950]
 position = Vector2(251, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1056295558]
+[node name="Sprite2D3" type="Sprite2D" parent="homis" unique_id=1056295558]
 position = Vector2(270, 594)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1018095368]
+[node name="Sprite2D4" type="Sprite2D" parent="homis" unique_id=1018095368]
 position = Vector2(289, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=595100769]
+[node name="Sprite2D5" type="Sprite2D" parent="homis" unique_id=595100769]
 position = Vector2(302, 594)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D6" type="Sprite2D" parent="." unique_id=1918165216]
+[node name="Sprite2D6" type="Sprite2D" parent="homis" unique_id=1918165216]
 position = Vector2(322, 593)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D7" type="Sprite2D" parent="." unique_id=1373499998]
+[node name="Sprite2D7" type="Sprite2D" parent="homis" unique_id=1373499998]
 position = Vector2(340, 594)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D8" type="Sprite2D" parent="." unique_id=527164918]
+[node name="Sprite2D8" type="Sprite2D" parent="homis" unique_id=527164918]
 position = Vector2(311, 593)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D9" type="Sprite2D" parent="." unique_id=1052005475]
+[node name="Sprite2D9" type="Sprite2D" parent="homis" unique_id=1052005475]
 position = Vector2(221, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D10" type="Sprite2D" parent="." unique_id=6859464]
+[node name="Sprite2D10" type="Sprite2D" parent="homis" unique_id=6859464]
 position = Vector2(351, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D11" type="Sprite2D" parent="." unique_id=1685939077]
+[node name="Sprite2D11" type="Sprite2D" parent="homis" unique_id=1685939077]
 position = Vector2(331, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D12" type="Sprite2D" parent="." unique_id=1959578295]
+[node name="Sprite2D12" type="Sprite2D" parent="homis" unique_id=1959578295]
 position = Vector2(279, 592)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D13" type="Sprite2D" parent="." unique_id=1258584300]
+[node name="Sprite2D13" type="Sprite2D" parent="homis" unique_id=1258584300]
 position = Vector2(260, 593)
 texture = ExtResource("1_y2j5c")
 
-[node name="Sprite2D14" type="Sprite2D" parent="." unique_id=1469568975]
+[node name="Sprite2D14" type="Sprite2D" parent="homis" unique_id=1469568975]
 position = Vector2(206, 592)
 texture = ExtResource("1_y2j5c")
+
+[node name="termometro" type="CanvasLayer" parent="." unique_id=199086105]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="termometro" unique_id=693796462]
+position = Vector2(152, 208)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_8w0r3")
+autoplay = "default"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1852983413]
+libraries/ = SubResource("AnimationLibrary_ih2uo")
+autoplay = &"loop-ilumination"
+
+[node name="textos" type="AnimationPlayer" parent="." unique_id=238319780]
+libraries/ = SubResource("AnimationLibrary_v6fxk")
+autoplay = &"textos"
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=1216456550]
+libraries/ = SubResource("AnimationLibrary_shnm2")
+autoplay = &"fade-in"
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1134518014]
+color = Color(0, 0, 0, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=596422869]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1815088633]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control" unique_id=124186651]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -406.0
+offset_top = -137.0
+offset_right = 406.0
+offset_bottom = 137.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/VBoxContainer" unique_id=1166812770]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("4_ptakn")
+theme_override_font_sizes/font_size = 32
+text = "-Temperatura e Nebulosidade-"
+horizontal_alignment = 1
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/VBoxContainer" unique_id=1544980424]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_shnm2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/VBoxContainer" unique_id=1381294031]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("5_l4lpu")
+theme_override_fonts/bold_font = ExtResource("5_l4lpu")
+theme_override_fonts/bold_italics_font = ExtResource("5_l4lpu")
+theme_override_fonts/italics_font = ExtResource("5_l4lpu")
+theme_override_fonts/mono_font = ExtResource("5_l4lpu")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "- Temperatura: indica o grau de agitação das partículas de um corpo ou substância e é medida em graus Celsius (°C) no Brasil. Os meteorologistas acompanham suas variações para analisar as condições térmicas da atmosfera e prever o tempo.
+
+- Nebulosidade: corresponde à quantidade de nuvens que cobrem o céu em determinado local e momento. Os meteorologistas observam as nuvens, sua altitude e seus tipos para analisar as condições atmosféricas e prever a possibilidade de chuvas."
+fit_content = true
+visible_characters = 0
+visible_ratio = 0.0
+
+[connection signal="animation_finished" from="fade" to="." method="_on_fade_animation_finished"]
