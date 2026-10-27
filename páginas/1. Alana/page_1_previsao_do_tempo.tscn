@@ -1,3 +1,75 @@
 [gd_scene format=3 uid="uid://bu25x6rob7mc6"]
 
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="1_pvve5"]
+[ext_resource type="Texture2D" uid="uid://cv6sye4i1r64k" path="res://data/assets/guarda_chuva_do_hom_andando.png" id="2_tqjxo"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_8w0r3"]
+radius = 100.0
+height = 200.0
+
 [node name="page 1 - Previsão do tempo" type="Node2D" unique_id=1867155648]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=779540744]
+offset_left = -3083.0
+offset_top = -1557.0
+offset_right = 4451.0
+offset_bottom = 1503.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="cenario" type="Node2D" parent="." unique_id=1799264866]
+
+[node name="mountain" type="MeshInstance2D" parent="cenario" unique_id=178404784]
+modulate = Color(0, 0.6745098, 0, 1)
+position = Vector2(163.57503, 602.575)
+rotation = -0.7853982
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="mountain2" type="MeshInstance2D" parent="cenario" unique_id=1146267309]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(393.00006, 660.00006)
+rotation = 0.7920004
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="mountain4" type="MeshInstance2D" parent="cenario" unique_id=496850606]
+modulate = Color(0, 0.6156863, 0, 1)
+position = Vector2(1020, 575)
+rotation = 0.7853982
+scale = Vector2(303, 408.78787)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="mountain3" type="MeshInstance2D" parent="cenario" unique_id=1268340191]
+modulate = Color(0, 0.6745098, 0, 1)
+position = Vector2(677.00006, 630)
+rotation = -0.7853982
+scale = Vector2(359.94006, 408.78787)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="ground" type="MeshInstance2D" parent="cenario" unique_id=454593536]
+modulate = Color(0, 0.7137255, 0, 1)
+position = Vector2(575.5, 623)
+scale = Vector2(1159, 55.999966)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="homi andando" type="Node2D" parent="." unique_id=1495946430]
+
+[node name="HomiAndando" type="Sprite2D" parent="homi andando" unique_id=508068540]
+position = Vector2(696, 591)
+texture = ExtResource("1_pvve5")
+
+[node name="GuardaChuvaDoHomAndando" type="Sprite2D" parent="homi andando" unique_id=1701907190]
+visible = false
+position = Vector2(695, 588)
+texture = ExtResource("2_tqjxo")
+
+[node name="ilumination" type="CanvasModulate" parent="." unique_id=117273119]
+
+[node name="climas diferentes" type="Node2D" parent="." unique_id=1815531899]
+
+[node name="UM-SOL-PRA-CADA-UM" type="MeshInstance2D" parent="climas diferentes" unique_id=699551042]
+modulate = Color(1, 0.827451, 0, 1)
+position = Vector2(596, 123)
+mesh = SubResource("SphereMesh_8w0r3")

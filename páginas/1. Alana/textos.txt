@@ -12,7 +12,7 @@ Todo mundo confere a previsão antes de sair. Se vai chover leva guarda-chuva, s
 > Tempo = condição momentânea da atmosfera (chuva de hoje, calor de agora).
 > Clima = conjunto das condições que se repetem ao longo de muitos anos em uma região.
 
-Meteorologia: é a ciência que estuda a atmosfera e faz previsões com base em dados. As previsões são feitas em centros de monitoramento como o INMET e o INPE no Brasil.
+Meteorologia é a ciência que estuda a atmosfera e faz previsões com base em dados. As previsões são feitas em centros de monitoramento como o INMET e o INPE no Brasil.
 Os dados vêm de milhares de estações meteorológicas com instrumentos como termômetro, anemômetro e pluviômetro, além de satélites, radares e radiossondas. Como usam modelos físicos e estatísticos, a previsão indica probabilidades, não certezas.
 
 No final começa a falar das Variáveis meteorológicas: temperatura, nebulosidade, precipitação, umidade, pressão, ventos e massas de ar.
