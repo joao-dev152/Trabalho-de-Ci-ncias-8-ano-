@@ -138,6 +138,58 @@ _data = {
 &"fade-in": SubResource("Animation_fpvpb")
 }
 
+[sub_resource type="Animation" id="Animation_p4drf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_gjwpb"]
+resource_name = "fade-in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_3ktpg"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_48bqa"]
+_data = {
+&"RESET": SubResource("Animation_p4drf"),
+&"fade-in": SubResource("Animation_gjwpb"),
+&"fade-out": SubResource("Animation_3ktpg")
+}
+
 [node name="page 0 - intro" type="Node2D" unique_id=163488696]
 script = ExtResource("1_u81td")
 
@@ -331,5 +383,12 @@ fit_content = true
 visible_characters = 0
 visible_ratio = 0.0
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=630308662]
+[node name="default-anim" type="AnimationPlayer" parent="." unique_id=630308662]
 libraries/ = SubResource("AnimationLibrary_p4drf")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1895163223]
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1056629667]
+libraries/ = SubResource("AnimationLibrary_48bqa")
+autoplay = &"fade-in"

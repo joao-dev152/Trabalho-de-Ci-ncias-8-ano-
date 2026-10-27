@@ -3,11 +3,12 @@
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-::res://data/assets/::1793107133
+::res://data/assets/::1793107137
 guarda_chuva_do_hom_andando.png::CompressedTexture2D::6311938814375910856::1793107133::1793107137::1::::<><><>0<>0<>ae22e96dc3f75dd6a7419d7272c2911b<>res://.godot/imported/guarda_chuva_do_hom_andando.png-10bead4f49cec105196867d5f13560d0.ctex::
 homi_andando.png::CompressedTexture2D::7588775125800739548::1793107087::1793107137::1::::<><><>0<>0<>d2a268a16900a62a70f4c824b038bb77<>res://.godot/imported/homi_andando.png-8f7f2cb769fb5fe9dc5ea21d441a9d0b.ctex::
 homi_skiando_na_neve.png::CompressedTexture2D::766346477488270323::1793054942::1793054958::1::::<><><>0<>0<>a4161742a8f262235189cfe5db7aba59<>res://.godot/imported/homi_skiando_na_neve.png-3e660778f1cc75fe3dfa763f1ab38ac5.ctex::
-::res://data/assets/Clouds/::1793054958
+::res://data/assets/Clouds/::1793107709
+cloud.png::CompressedTexture2D::3773168441977627103::1793107709::1793107714::1::::<><><>0<>0<>a254de51401e74a00bb2c18b4ab2b773<>res://.godot/imported/cloud.png-c12375d340d482cec9294cefdc82d149.ctex::
 ::res://data/assets/Clouds/Clouds 1/::1792257902
 1.png::CompressedTexture2D::208397424256525292::1665778820::1792257902::1::::<><><>0<>0<>144bdb3db7c24c528f196a38993a055b<>res://.godot/imported/1.png-6c80c72b69b45f6d67a685d6c14909ff.ctex::
 2.png::CompressedTexture2D::9202818642092717541::1665778834::1792257902::1::::<><><>0<>0<>71944a5fc4017ca2570b9e640c24db70<>res://.godot/imported/2.png-ac755fe1314ce5e34a709cfa41f004e4.ctex::
@@ -18,10 +19,10 @@ Isometra-Regular.ttf::FontFile::7471178183238270226::1790894596::1792257330::1::
 NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf::FontFile::2641455370355866222::1758066372::1792257330::1::::<><><>0<>0<>3b39a554bc336bf6631776f81b14f408<>res://.godot/imported/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf-b4b34b0b7301958e40410cdb5990bed5.fontdata::
 Oswald-VariableFont_wght.ttf::FontFile::9026031680162286201::1757609064::1792257330::1::::<><><>0<>0<>f5cd344cf524ac500577071b59c1c07e<>res://.godot/imported/Oswald-VariableFont_wght.ttf-987ebcd22b15002581b60f9609a21825.fontdata::
 ::res://páginas/::1792249237
-::res://páginas/1. Alana/::1793107055
+::res://páginas/1. Alana/::1793107597
 page_0_intro.tscn::PackedScene::1196096346884575721::1793106304::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://dboeqpvyh85hu::::res://scripts/tittle_screen.gd<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://k6hu5ncxbtuh::::res://data/assets/homi_skiando_na_neve.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-page_1_previsao_do_tempo.tscn::PackedScene::3847799993980402723::1793107055::0::1::::<><><>0<>0<><>::
-textos.txt::TextFile::-1::1793057882::0::1::::<><><>0<>0<><>::
+page_1_previsao_do_tempo.tscn::PackedScene::3847799993980402723::1793107597::0::1::::<><><>0<>0<><>::uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://cv6sye4i1r64k::::res://data/assets/guarda_chuva_do_hom_andando.png
+textos.txt::TextFile::-1::1793107597::0::1::::<><><>0<>0<><>::
 ::res://páginas/2. Anna Luiza/::1793054262
 textos.txt::TextFile::-1::1793054262::0::1::::<><><>0<>0<><>::
 ::res://páginas/3. Cecília/::1792872558
