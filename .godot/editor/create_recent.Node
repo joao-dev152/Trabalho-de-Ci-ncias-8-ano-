@@ -1,14 +1,14 @@
+HSeparator
+RichTextLabel
 AnimationPlayer
+Node2D
 Polygon2D
 Line2D
 MeshInstance2D
-Node2D
 Parallax2D
 ColorRect
-HSeparator
 Button
 VBoxContainer
 Label
 Control
 CanvasLayer
-Sprite2D

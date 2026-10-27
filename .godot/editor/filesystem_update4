@@ -2,3 +2,5 @@ res://tittle-screen.tscn
 res://páginas/2. Anna Luiza/textos.txt
 res://páginas/4. Clarice/textos.txt
 res://páginas/1. Alana/page_0_intro.tscn
+res://scripts/tittle_screen.gd
+res://páginas/1. Alana/textos.txt
