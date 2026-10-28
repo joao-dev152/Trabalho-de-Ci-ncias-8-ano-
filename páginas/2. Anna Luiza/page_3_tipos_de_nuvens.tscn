@@ -1,0 +1,361 @@
+[gd_scene format=3 uid="uid://ohpnwk20ac6x"]
+
+[ext_resource type="Texture2D" uid="uid://bt00sed7om8vr" path="res://data/assets/Clouds/cloud.png" id="1_g0hv2"]
+[ext_resource type="FontFile" uid="uid://bdvsnb633yllm" path="res://data/assets/fnt/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" id="2_kt51w"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_8w0r3"]
+color = Color(0, 0, 0, 0.34509805)
+thickness = 3
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+size = Vector3(1152, 16, 1)
+
+[node name="page_3_tipos_de_nuvens" type="Node2D" unique_id=1098829437]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=972907972]
+offset_left = -2859.0
+offset_top = -1280.0
+offset_right = 4675.0
+offset_bottom = 1780.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="nuvens altas" type="Node2D" parent="." unique_id=877801407]
+
+[node name="cirrus" type="Node2D" parent="nuvens altas" unique_id=1580871762]
+position = Vector2(408, 34)
+scale = Vector2(0.5, 0.5)
+
+[node name="Cloud" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=982216945]
+position = Vector2(362.00003, 52.00001)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=695247369]
+position = Vector2(442, 100.00001)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud3" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=1285239374]
+position = Vector2(437, 41.999977)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud4" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=481743790]
+position = Vector2(531, 39.999996)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud5" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=615581615]
+position = Vector2(524, 98.00003)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud6" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=745776020]
+position = Vector2(598, 142)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud7" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=1571942960]
+position = Vector2(492, 146)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud8" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=1656143308]
+position = Vector2(618, 87.99999)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud9" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=1105656858]
+position = Vector2(709.99994, 43.99999)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud10" type="Sprite2D" parent="nuvens altas/cirrus" unique_id=1017183725]
+position = Vector2(610, 26.00001)
+rotation = 0.2617994
+scale = Vector2(0.12499999, 0.12499999)
+texture = ExtResource("1_g0hv2")
+
+[node name="Label" type="Label" parent="nuvens altas/cirrus" unique_id=1139508880]
+offset_left = 360.0
+offset_top = 120.0
+offset_right = 417.0
+offset_bottom = 143.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_kt51w")
+theme_override_font_sizes/font_size = 24
+text = "CIRRUS"
+
+[node name="cirrostratos" type="Node2D" parent="nuvens altas" unique_id=625326810]
+modulate = Color(1, 1, 1, 0.74509805)
+position = Vector2(220, 103)
+
+[node name="Cloud" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=140808574]
+position = Vector2(181, 78)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=355606753]
+position = Vector2(146, 81)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud3" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1565546274]
+position = Vector2(120, 76)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud4" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=483982231]
+position = Vector2(149, 66)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud5" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=969469561]
+position = Vector2(197, 65)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud6" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1613810576]
+position = Vector2(217, 81)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud7" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1695610719]
+position = Vector2(205, 91)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud8" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=758562351]
+position = Vector2(157, 95)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud9" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=415755867]
+position = Vector2(130, 95)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud10" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1275358671]
+position = Vector2(93, 92)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud11" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=5228650]
+position = Vector2(89, 67)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud12" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1775110497]
+position = Vector2(70, 83)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud13" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1328341692]
+position = Vector2(223, 65)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud14" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1724939432]
+position = Vector2(256, 72)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud15" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=334228014]
+position = Vector2(237, 49)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud16" type="Sprite2D" parent="nuvens altas/cirrostratos" unique_id=1421736443]
+position = Vector2(267, 52)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Label" type="Label" parent="nuvens altas/cirrostratos" unique_id=871684992]
+offset_left = 90.0
+offset_top = 108.0
+offset_right = 207.0
+offset_bottom = 131.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_kt51w")
+text = "CIRROSTRATOS"
+
+[node name="cirrucumulos" type="Node2D" parent="nuvens altas" unique_id=1338644382]
+
+[node name="Cloud" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1697405718]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(59, 45)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=549607844]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(74, 56)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud3" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1767453831]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(96, 43)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud4" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1538385315]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(127, 58)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud5" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=679923166]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(140, 42)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud6" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=540094593]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(120, 38)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud7" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=62645994]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(75, 23)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud8" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=790988674]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(162, 25)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud9" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1857393760]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(197, 47)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud10" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=444831377]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(119, 22)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud11" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1136831837]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(161, 58)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud12" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1906393783]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(190, 31)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud13" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=2099434319]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(230, 40)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud14" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=111538923]
+modulate = Color(1, 1, 1, 0.9098039)
+position = Vector2(208, 56)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud15" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=257420982]
+position = Vector2(301, 27)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud16" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1811162407]
+position = Vector2(284, 72)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud17" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1938884271]
+position = Vector2(347, 61)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud18" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1895180401]
+position = Vector2(366, 11.999992)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("1_g0hv2")
+
+[node name="Cloud19" type="Sprite2D" parent="nuvens altas/cirrucumulos" unique_id=1501424717]
+position = Vector2(399, 50.000004)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("1_g0hv2")
+
+[node name="Label" type="Label" parent="nuvens altas/cirrucumulos" unique_id=1411689977]
+offset_left = 126.0
+offset_top = 61.0
+offset_right = 211.0
+offset_bottom = 95.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_kt51w")
+text = "CIRRUCUMULOS"
+
+[node name="Label" type="Label" parent="nuvens altas" unique_id=517943372]
+offset_left = 8.0
+offset_top = 199.0
+offset_right = 93.0
+offset_bottom = 233.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_kt51w")
+theme_override_font_sizes/font_size = 24
+text = "Nuvens Altas"
+
+[node name="HSeparator" type="HSeparator" parent="." unique_id=342122193]
+offset_top = 237.0
+offset_right = 1152.0
+offset_bottom = 241.0
+theme_override_styles/separator = SubResource("StyleBoxLine_8w0r3")
+
+[node name="nuvens medias" type="Node2D" parent="." unique_id=939759310]
+
+[node name="Label" type="Label" parent="nuvens medias" unique_id=1388173748]
+offset_left = 3.0
+offset_top = 437.0
+offset_right = 88.0
+offset_bottom = 471.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("2_kt51w")
+theme_override_font_sizes/font_size = 24
+text = "Nuvens Médias"
+
+[node name="HSeparator2" type="HSeparator" parent="." unique_id=1785324938]
+offset_top = 474.0
+offset_right = 1152.0
+offset_bottom = 478.0
+theme_override_styles/separator = SubResource("StyleBoxLine_8w0r3")
+
+[node name="nuvens baixas" type="Node2D" parent="." unique_id=1503332318]
+
+[node name="nuvens de grande desenvolvimento vertical" type="Node2D" parent="." unique_id=1856933219]
+
+[node name="ground" type="MeshInstance2D" parent="." unique_id=1016713825]
+modulate = Color(0, 0.77254903, 0, 1)
+position = Vector2(576, 641)
+mesh = SubResource("BoxMesh_8w0r3")

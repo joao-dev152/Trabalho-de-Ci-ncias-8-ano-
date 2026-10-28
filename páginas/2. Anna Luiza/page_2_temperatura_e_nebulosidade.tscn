@@ -105,7 +105,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Color(0.13333334, 0.25882354, 0.4862745, 1)]
+"values": [Color(0.13333334, 0.6156863, 0.9490196, 1)]
 }
 
 [sub_resource type="Animation" id="Animation_hsehc"]
@@ -254,7 +254,7 @@ offset_left = -3083.0
 offset_top = -1557.0
 offset_right = 4451.0
 offset_bottom = 1503.0
-color = Color(0.13333334, 0.25882354, 0.4862745, 1)
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
 
 [node name="cenario" type="Node2D" parent="." unique_id=751256370]
 
