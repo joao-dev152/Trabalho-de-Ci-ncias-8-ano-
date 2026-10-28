@@ -288,7 +288,7 @@ mesh = SubResource("BoxMesh_4s65b")
 
 [node name="ground" type="MeshInstance2D" parent="cenario" unique_id=1414790077]
 modulate = Color(0, 0.7137255, 0, 1)
-position = Vector2(575.5, 623)
+position = Vector2(574, 623.00006)
 scale = Vector2(1159, 55.999966)
 mesh = SubResource("BoxMesh_4s65b")
 
