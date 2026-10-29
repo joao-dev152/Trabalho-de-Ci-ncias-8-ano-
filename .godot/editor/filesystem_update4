@@ -5,3 +5,10 @@ res://páginas/2. Anna Luiza/page_3_tipos_de_nuvens.tscn
 res://páginas/2. Anna Luiza/page_4_experimento.tscn
 res://scripts/page_3_tipos_de_nuvens.gd
 res://scripts/page_4_experimento.gd
+res://páginas/3. Cecília/textos.txt
+res://páginas/3. Cecília/page_5_precipitação.tscn
+res://scripts/page_5_precipitação.gd
+res://scripts/page_1_previsao_do_tempo.gd
+res://scripts/page_2_temperatura_e_nebulosidade.gd
+res://páginas/3. Cecília/page_6_umidade_do_ar.tscn
+res://scripts/page_6_umidade_do_ar.gd

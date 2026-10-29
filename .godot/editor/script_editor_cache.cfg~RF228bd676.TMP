@@ -1,0 +1,203 @@
+[res://páginas/7. Carlos Bruno/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 47,
+"scroll_position": 0.0,
+"selection": true,
+"selection_from_column": 0,
+"selection_from_line": 0,
+"selection_to_column": 0,
+"selection_to_line": 47,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/8. João Guilherme/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 17,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/3. Cecília/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 471,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 2820,
+"row": 4,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/4. Clarice/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 10,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/1. Alana/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 7,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 7,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/2. Anna Luiza/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 20,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://scripts/tittle_screen.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 88,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 18,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "GDScript"
+}
+
+[res://páginas/5. Eduarda/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 12,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://páginas/6. Samuel/textos.txt]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 7,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "Plain Text"
+}
+
+[res://scripts/particle_group_control.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 13,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "GDScript"
+}
+
+[res://scripts/page_1_previsao_do_tempo.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 1,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 27,
+"scroll_position": 4.0,
+"selection": false,
+"syntax_highlighter": "GDScript"
+}
+
+[res://scripts/page_2_temperatura_e_nebulosidade.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 9,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 11,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "GDScript"
+}
+
+[res://scripts/page_3_tipos_de_nuvens.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 0,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 24,
+"scroll_position": 1.0,
+"selection": true,
+"selection_from_column": 0,
+"selection_from_line": 0,
+"selection_to_column": 0,
+"selection_to_line": 24,
+"syntax_highlighter": "GDScript"
+}
+
+[res://scripts/page_4_experimento.gd]
+
+state={
+"bookmarks": PackedInt32Array(),
+"breakpoints": PackedInt32Array(),
+"column": 27,
+"folded_lines": PackedInt32Array(),
+"h_scroll_position": 0,
+"row": 12,
+"scroll_position": 0.0,
+"selection": false,
+"syntax_highlighter": "GDScript"
+}

@@ -1,0 +1,48 @@
+[game_view]
+
+select_mode=0
+
+[editor_metadata]
+
+executable_path="C:/Godot Engine/versions/Godot_v4.7.2-stable_win64/Godot_v4.7.2-stable_win64.exe"
+use_advanced_connections=false
+
+[color_picker]
+
+picker_shape=3
+recent_presets=PackedColorArray(1, 1, 1, 0.7254902, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0.45882353, 1, 0.827451, 0, 1, 0.7261952, 0.86039853, 0.99116904, 1, 1, 1, 0, 1, 1, 0.85490197, 0, 1, 0, 0, 0, 1)
+presets=PackedColorArray(0.13333334, 0.6156863, 0.9490196, 1)
+palette_edited=true
+
+[dialog_bounds]
+
+project_settings=Rect2(137, 77, 1092, 614)
+create_new_node=Rect2(233, 77, 900, 614)
+editor_settings=Rect2(233, 77, 900, 614)
+search_help=Rect2(480, 270, 960, 540)
+
+[recent_files]
+
+scenes=["res://páginas/3. Cecília/page_6_umidade_do_ar.tscn", "res://páginas/2. Anna Luiza/page_2_temperatura_e_nebulosidade.tscn", "res://páginas/1. Alana/page_1_previsao_do_tempo.tscn", "res://páginas/3. Cecília/page_5_precipitação.tscn", "res://páginas/2. Anna Luiza/page_3_tipos_de_nuvens.tscn", "res://páginas/2. Anna Luiza/page_4_experimento.tscn", "res://páginas/1. Alana/page_0_intro.tscn", "res://tittle-screen.tscn", "res://splash_screen.tscn"]
+scripts=["res://scripts/page_5_precipitação.gd", "res://scripts/page_4_experimento.gd", "res://scripts/page_3_tipos_de_nuvens.gd", "res://scripts/page_2_temperatura_e_nebulosidade.gd", "res://scripts/tittle_screen.gd", "res://scripts/page_1_previsao_do_tempo.gd", "res://scripts/particle_group_control.gd", "res://páginas/6. Samuel/textos.txt", "res://páginas/5. Eduarda/textos.txt", "res://páginas/2. Anna Luiza/textos.txt"]
+
+[quick_open_dialog]
+
+last_mode=0
+
+[script_setup]
+
+last_selected_language="GDScript"
+create_built_in_script=false
+
+[files_panel]
+
+show_files_panel=true
+
+[debug_options]
+
+autostart_profiler=false
+
+[linked_properties]
+
+Sprite2D:scale=true

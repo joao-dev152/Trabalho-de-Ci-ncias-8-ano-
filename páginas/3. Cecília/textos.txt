@@ -1,12 +1,12 @@
 1. Precipitação 
-Quando se vê a presença de nuvens, é comum associá-las à chegada de chuvas - porém, nem sempre a presença de nuvens se limita somente a chuvas.
- Quando as nuvens acumulam grande quantidade de água ou gelo, é comum que ocorram diferentes formas de precipitação. A precipitação é o termo utilizado para se referir a toda água que cai do céu em direção a superfície da terra.
- A chuva é a forma mais comum de precipitação, porém, em temperaturas mais baixas, pode também ocorrer granizo e neve.
-  O instrumento utilizado para medir a precipitação é chamado pluviômetro, o qual coleta a água que cai em determinado intervalo de tempo. A quantidade de água registrada é expressa em milímetros (mm). A unidade representa a altura da lâmina de água sobre uma superfície da terra; ou seja, se em uma chuva são registrados 10 mm, a água armazenada geraria uma camada de 10 milímetros de altura sobre o solo - excluindo a possibilidade de infiltração, escoamento ou evaporação.
+Quando se vê a presença de nuvens, é comum associá-las à chegada de chuvas, porém, nem sempre a presença de nuvens se limita somente a chuvas.
+Quando as nuvens acumulam grande quantidade de água ou gelo, é comum que ocorram diferentes formas de precipitação. A precipitação é o termo utilizado para se referir a toda água que cai do céu em direção a superfície da terra.
+A chuva é a forma mais comum de precipitação, porém, em temperaturas mais baixas, pode também ocorrer granizo e neve.
+O instrumento utilizado para medir a precipitação é chamado pluviômetro, o qual coleta a água que cai em determinado intervalo de tempo. A quantidade de água registrada é expressa em milímetros (mm). A unidade representa a altura da lâmina de água sobre uma superfície da terra; ou seja, se em uma chuva são registrados 10 mm, a água armazenada geraria uma camada de 10 milímetros de altura sobre o solo - excluindo a possibilidade de infiltração, escoamento ou evaporação.
 
 2. Umidade do ar:
- A unidade relativa do ar indica quanto vapor-d'água existe no ar em determinado momento e temperatura. Ou seja, demonstra se o ar está mais seco ou mais úmido, dependendo da quantidade de água presente na atmosfera.
- A umidade é medida pelo higrômetro, instrumento que expressa em porcentagem os valores de umidade do ar.
+A unidade relativa do ar indica quanto vapor-d'água existe no ar em determinado momento e temperatura. Ou seja, demonstra se o ar está mais seco ou mais úmido, dependendo da quantidade de água presente na atmosfera.
+A umidade é medida pelo higrômetro, instrumento que expressa em porcentagem os valores de umidade do ar.
 
 - Valores abaixo de 30%: Ar seco.
 - Entre 40% e 70%: Adequados.

@@ -3,12 +3,15 @@
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-::res://data/assets/::1793136420
+::res://data/assets/::1793277053
 guarda_chuva_do_hom_andando.png::CompressedTexture2D::6311938814375910856::1793107133::1793107137::1::::<><><>0<>0<>ae22e96dc3f75dd6a7419d7272c2911b<>res://.godot/imported/guarda_chuva_do_hom_andando.png-10bead4f49cec105196867d5f13560d0.ctex::
 homi_andando.png::CompressedTexture2D::7588775125800739548::1793107087::1793107137::1::::<><><>0<>0<>d2a268a16900a62a70f4c824b038bb77<>res://.godot/imported/homi_andando.png-8f7f2cb769fb5fe9dc5ea21d441a9d0b.ctex::
 homi_skiando_na_neve.png::CompressedTexture2D::766346477488270323::1793054942::1793054958::1::::<><><>0<>0<>a4161742a8f262235189cfe5db7aba59<>res://.godot/imported/homi_skiando_na_neve.png-3e660778f1cc75fe3dfa763f1ab38ac5.ctex::
 light2D-gradient.png::CompressedTexture2D::5699699243102589389::1793135701::1793135705::1::::<><><>0<>0<>8525d90a8efd8e4a84c730202928180b<>res://.godot/imported/light2D-gradient.png-c0f031bbe1d69040237e7637fc08d1db.ctex::
+pluviometro.png::CompressedTexture2D::2636826285859257250::1793275649::1793275662::1::::<><><>0<>0<>8f16fe3af6f48013e8f0bbbaa735bd99<>res://.godot/imported/pluviometro.png-3a1b7088b221f85120d610e9e1cb7df5.ctex::
+poste_q_segura_o_pluviometro.png::CompressedTexture2D::8556173457784598276::1793275836::1793275838::1::::<><><>0<>0<>2fe963fbdeb66004770855d0013a4288<>res://.godot/imported/poste_q_segura_o_pluviometro.png-6a7f554afe92e8cb50aa7037e0b79f92.ctex::
 termometro-pixel-art.png::CompressedTexture2D::3999566996582093241::1793136418::1793136420::1::::<><><>0<>0<>d5c18fbc597bc0943febe2fe464643c2<>res://.godot/imported/termometro-pixel-art.png-93e0aa224b53c5f2ac641512b2242a4c.ctex::
+water_drop.png::CompressedTexture2D::4603561476854552244::1793277054::1793277134::1::::<><><>0<>0<>15d58b1840f335102bb1f2d7537dea67<>res://.godot/imported/water_drop.png-eb48f456d626dccdbe5d3bf8ed34aac9.ctex::
 ::res://data/assets/Clouds/::1793107714
 cloud.png::CompressedTexture2D::3773168441977627103::1793107709::1793107714::1::::<><><>0<>0<>a254de51401e74a00bb2c18b4ab2b773<>res://.godot/imported/cloud.png-c12375d340d482cec9294cefdc82d149.ctex::
 ::res://data/assets/Clouds/Clouds 1/::1792257902
@@ -21,16 +24,18 @@ Isometra-Regular.ttf::FontFile::7471178183238270226::1790894596::1792257330::1::
 NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf::FontFile::2641455370355866222::1758066372::1792257330::1::::<><><>0<>0<>3b39a554bc336bf6631776f81b14f408<>res://.godot/imported/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf-b4b34b0b7301958e40410cdb5990bed5.fontdata::
 Oswald-VariableFont_wght.ttf::FontFile::9026031680162286201::1757609064::1792257330::1::::<><><>0<>0<>f5cd344cf524ac500577071b59c1c07e<>res://.godot/imported/Oswald-VariableFont_wght.ttf-987ebcd22b15002581b60f9609a21825.fontdata::
 ::res://páginas/::1792249237
-::res://páginas/1. Alana/::1793231246
-page_0_intro.tscn::PackedScene::1196096346884575721::1793231240::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://dboeqpvyh85hu::::res://scripts/tittle_screen.gd<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://k6hu5ncxbtuh::::res://data/assets/homi_skiando_na_neve.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-page_1_previsao_do_tempo.tscn::PackedScene::3847799993980402723::1793231246::0::1::::<><><>0<>0<><>::uid://bokwjg15udo3l::::res://scripts/page_1_previsao_do_tempo.gd<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://cv6sye4i1r64k::::res://data/assets/guarda_chuva_do_hom_andando.png<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://cvfc70j1vsspw::::res://scripts/particle_group_control.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+::res://páginas/1. Alana/::1793275210
+page_0_intro.tscn::PackedScene::1196096346884575721::1793274165::0::1::::<><><>0<>0<><>::uid://c77jmbyqa82s::::res://data/assets/Clouds/Clouds 1/1.png<>uid://dboeqpvyh85hu::::res://scripts/tittle_screen.gd<>uid://d4d6cwy3rusdh::::res://data/assets/Clouds/Clouds 1/2.png<>uid://cj5xars0vgtdc::::res://data/assets/Clouds/Clouds 1/3.png<>uid://c3vnc7rtxgmne::::res://data/assets/Clouds/Clouds 1/4.png<>uid://k6hu5ncxbtuh::::res://data/assets/homi_skiando_na_neve.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+page_1_previsao_do_tempo.tscn::PackedScene::3847799993980402723::1793275210::0::1::::<><><>0<>0<><>::uid://bokwjg15udo3l::::res://scripts/page_1_previsao_do_tempo.gd<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://cv6sye4i1r64k::::res://data/assets/guarda_chuva_do_hom_andando.png<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://cvfc70j1vsspw::::res://scripts/particle_group_control.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 textos.txt::TextFile::-1::1793107597::0::1::::<><><>0<>0<><>::
-::res://páginas/2. Anna Luiza/::1793232012
-page_2_temperatura_e_nebulosidade.tscn::PackedScene::4111123791313391164::1793227213::0::1::::<><><>0<>0<><>::uid://c2us4b5cv7e6u::::res://scripts/page_2_temperatura_e_nebulosidade.gd<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://bw8ojwn4h73hl::::res://data/assets/termometro-pixel-art.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-page_3_tipos_de_nuvens.tscn::PackedScene::998029597645047981::1793232012::0::1::::<><><>0<>0<><>::uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://djxkty5n5ymdx::::res://scripts/page_3_tipos_de_nuvens.gd<>uid://bdvsnb633yllm::::res://data/assets/fnt/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+::res://páginas/2. Anna Luiza/::1793274893
+page_2_temperatura_e_nebulosidade.tscn::PackedScene::4111123791313391164::1793274384::0::1::::<><><>0<>0<><>::uid://c2us4b5cv7e6u::::res://scripts/page_2_temperatura_e_nebulosidade.gd<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://bw8ojwn4h73hl::::res://data/assets/termometro-pixel-art.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+page_3_tipos_de_nuvens.tscn::PackedScene::998029597645047981::1793274215::0::1::::<><><>0<>0<><>::uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://djxkty5n5ymdx::::res://scripts/page_3_tipos_de_nuvens.gd<>uid://bdvsnb633yllm::::res://data/assets/fnt/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+page_4_experimento.tscn::PackedScene::9085007861723632647::1793274893::0::1::::<><><>0<>0<><>::uid://d4cosg3iyny1c::::res://scripts/page_4_experimento.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 textos.txt::TextFile::-1::1793231616::0::1::::<><><>0<>0<><>::
-::res://páginas/3. Cecília/::1792872558
-textos.txt::TextFile::-1::1792872558::0::1::::<><><>0<>0<><>::
+::res://páginas/3. Cecília/::1793276928
+page_5_precipitação.tscn::PackedScene::9053749693762904150::1793276928::0::1::::<><><>0<>0<><>::uid://dhlk4l7luyxh7::::res://scripts/page_5_precipitação.gd<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://bdtke5dkyhrmo::::res://data/assets/pluviometro.png<>uid://dt5w6rmbvwdn5::::res://data/assets/poste_q_segura_o_pluviometro.png<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf<>uid://cv6sye4i1r64k::::res://data/assets/guarda_chuva_do_hom_andando.png
+textos.txt::TextFile::-1::1793274956::0::1::::<><><>0<>0<><>::
 ::res://páginas/4. Clarice/::1793052940
 textos.txt::TextFile::-1::1793052940::0::1::::<><><>0<>0<><>::
 ::res://páginas/5. Eduarda/::1792954667
@@ -41,9 +46,11 @@ textos.txt::TextFile::-1::1793106304::0::1::::<><><>0<>0<><>::
 textos.txt::TextFile::-1::1792250730::0::1::::<><><>0<>0<><>::
 ::res://páginas/8. João Guilherme/::1792256150
 textos.txt::TextFile::-1::1792256150::0::1::::<><><>0<>0<><>::
-::res://scripts/::1793231927
-page_1_previsao_do_tempo.gd::GDScript::3391060474847098643::1793135332::0::1::::<>Node2D<><>0<>0<><>::
-page_2_temperatura_e_nebulosidade.gd::GDScript::6710372493574990290::1793231439::0::1::::<>Node2D<><>0<>0<><>::
-page_3_tipos_de_nuvens.gd::GDScript::7839084739713070957::1793231927::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/::1793276872
+page_1_previsao_do_tempo.gd::GDScript::3391060474847098643::1793276519::0::1::::<>Node2D<><>0<>0<><>::
+page_2_temperatura_e_nebulosidade.gd::GDScript::6710372493574990290::1793276526::0::1::::<>Node2D<><>0<>0<><>::
+page_3_tipos_de_nuvens.gd::GDScript::7839084739713070957::1793276531::0::1::::<>Node2D<><>0<>0<><>::
 particle_group_control.gd::GDScript::6257308880142776892::1793108474::0::1::::<>Node2D<><>0<>1<><>::
+page_4_experimento.gd::GDScript::9199749813070100030::1793276537::0::1::::<>Control<><>0<>0<><>::
+page_5_precipitação.gd::GDScript::7673951697509173450::1793276872::0::1::::<>Node2D<><>0<>0<><>::
 tittle_screen.gd::GDScript::7258624445339998002::1793110355::0::1::::<>Node2D<><>0<>0<><>::

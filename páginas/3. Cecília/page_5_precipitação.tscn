@@ -1,0 +1,631 @@
+[gd_scene format=3 uid="uid://d18x61q60fyvu"]
+
+[ext_resource type="Script" uid="uid://dhlk4l7luyxh7" path="res://scripts/page_5_precipitação.gd" id="1_hh7qi"]
+[ext_resource type="Texture2D" uid="uid://bt00sed7om8vr" path="res://data/assets/Clouds/cloud.png" id="1_pvswe"]
+[ext_resource type="Texture2D" uid="uid://bdtke5dkyhrmo" path="res://data/assets/pluviometro.png" id="2_bait8"]
+[ext_resource type="Texture2D" uid="uid://dt5w6rmbvwdn5" path="res://data/assets/poste_q_segura_o_pluviometro.png" id="3_kj1te"]
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="4_blu5k"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="4_stvsb"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="5_86dey"]
+[ext_resource type="Texture2D" uid="uid://cv6sye4i1r64k" path="res://data/assets/guarda_chuva_do_hom_andando.png" id="5_hh7qi"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+size = Vector3(1152, 24, 1)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_pvswe"]
+particle_flag_disable_z = true
+initial_velocity_min = -25.0
+initial_velocity_max = -10.0
+gravity = Vector3(0, 98, 0)
+scale_min = 0.0
+scale_max = 10.0
+color = Color(0, 0, 1, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stvsb"]
+atlas = ExtResource("2_bait8")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_86dey"]
+atlas = ExtResource("2_bait8")
+region = Rect2(16, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_blu5k"]
+atlas = ExtResource("2_bait8")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hh7qi"]
+atlas = ExtResource("2_bait8")
+region = Rect2(48, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cdnml"]
+atlas = ExtResource("2_bait8")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c24t6"]
+atlas = ExtResource("2_bait8")
+region = Rect2(80, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vdge"]
+atlas = ExtResource("2_bait8")
+region = Rect2(96, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01tbs"]
+atlas = ExtResource("2_bait8")
+region = Rect2(112, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bm5gf"]
+atlas = ExtResource("2_bait8")
+region = Rect2(128, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1cs1"]
+atlas = ExtResource("2_bait8")
+region = Rect2(144, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vq2x7"]
+atlas = ExtResource("2_bait8")
+region = Rect2(160, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k36ov"]
+atlas = ExtResource("2_bait8")
+region = Rect2(176, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7rbg"]
+atlas = ExtResource("2_bait8")
+region = Rect2(192, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lu1e5"]
+atlas = ExtResource("2_bait8")
+region = Rect2(208, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vqlql"]
+atlas = ExtResource("2_bait8")
+region = Rect2(224, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d65pf"]
+atlas = ExtResource("2_bait8")
+region = Rect2(240, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igunu"]
+atlas = ExtResource("2_bait8")
+region = Rect2(256, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nerhq"]
+atlas = ExtResource("2_bait8")
+region = Rect2(272, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k5i34"]
+atlas = ExtResource("2_bait8")
+region = Rect2(288, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1gdib"]
+atlas = ExtResource("2_bait8")
+region = Rect2(304, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0q75x"]
+atlas = ExtResource("2_bait8")
+region = Rect2(320, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85n7i"]
+atlas = ExtResource("2_bait8")
+region = Rect2(336, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rxlu0"]
+atlas = ExtResource("2_bait8")
+region = Rect2(352, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bh4x"]
+atlas = ExtResource("2_bait8")
+region = Rect2(368, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_di28v"]
+atlas = ExtResource("2_bait8")
+region = Rect2(384, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8w0r3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stvsb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_86dey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_blu5k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hh7qi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cdnml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c24t6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vdge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01tbs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bm5gf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1cs1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vq2x7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k36ov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7rbg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lu1e5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vqlql")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d65pf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igunu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nerhq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k5i34")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1gdib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0q75x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85n7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rxlu0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bh4x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_di28v")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 1.0
+}]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_blu5k"]
+
+[sub_resource type="Animation" id="Animation_blu5k"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_hh7qi"]
+resource_name = "fade-in"
+length = 3.0000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_cdnml"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.43333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_c24t6"]
+_data = {
+&"RESET": SubResource("Animation_blu5k"),
+&"fade-in": SubResource("Animation_hh7qi"),
+&"fade-out": SubResource("Animation_cdnml")
+}
+
+[node name="page_5_precipitação" type="Node2D" unique_id=1575860875]
+script = ExtResource("1_hh7qi")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=530112664]
+offset_left = -2849.0
+offset_top = -1285.0
+offset_right = 4685.0
+offset_bottom = 1775.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="ground" type="Node2D" parent="." unique_id=367135198]
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="ground" unique_id=539934654]
+modulate = Color(0, 0.58246547, 5.7756904e-07, 1)
+position = Vector2(103.85032, 601.5394)
+rotation = -2.0943952
+scale = Vector2(0.2700565, 14.066398)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D3" type="MeshInstance2D" parent="ground" unique_id=1206682687]
+modulate = Color(0, 0.58246547, 5.7756904e-07, 1)
+position = Vector2(419.99997, 622)
+rotation = -2.6179938
+scale = Vector2(0.2700565, 14.066398)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D4" type="MeshInstance2D" parent="ground" unique_id=997348439]
+modulate = Color(0, 0.58246547, 5.7756904e-07, 1)
+position = Vector2(666, 614)
+rotation = -2.3561945
+scale = Vector2(0.2700565, 14.066398)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D5" type="MeshInstance2D" parent="ground" unique_id=1156406138]
+modulate = Color(0, 0.58246547, 5.7756904e-07, 1)
+position = Vector2(932.00006, 632)
+rotation = -2.6179938
+scale = Vector2(0.2700565, 14.066398)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="particles" type="Node2D" parent="ground" unique_id=129871573]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="ground/particles" unique_id=1911489613]
+position = Vector2(103, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="ground/particles" unique_id=834508769]
+position = Vector2(150, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="ground/particles" unique_id=423567079]
+position = Vector2(197, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D4" type="GPUParticles2D" parent="ground/particles" unique_id=2019613228]
+position = Vector2(244, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D5" type="GPUParticles2D" parent="ground/particles" unique_id=776124828]
+position = Vector2(282, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D6" type="GPUParticles2D" parent="ground/particles" unique_id=1273591581]
+position = Vector2(326, 318)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D7" type="GPUParticles2D" parent="ground/particles" unique_id=2117942412]
+position = Vector2(379, 316)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D8" type="GPUParticles2D" parent="ground/particles" unique_id=1633729965]
+position = Vector2(414, 314)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D9" type="GPUParticles2D" parent="ground/particles" unique_id=1278375181]
+position = Vector2(458, 310)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D10" type="GPUParticles2D" parent="ground/particles" unique_id=374460787]
+position = Vector2(505, 310)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D11" type="GPUParticles2D" parent="ground/particles" unique_id=186780017]
+position = Vector2(563, 314)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D12" type="GPUParticles2D" parent="ground/particles" unique_id=1431292820]
+position = Vector2(623, 316)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D13" type="GPUParticles2D" parent="ground/particles" unique_id=1115048595]
+position = Vector2(671, 312)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D14" type="GPUParticles2D" parent="ground/particles" unique_id=196786937]
+position = Vector2(729, 312)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D15" type="GPUParticles2D" parent="ground/particles" unique_id=1620348718]
+position = Vector2(800, 305)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D16" type="GPUParticles2D" parent="ground/particles" unique_id=1869538833]
+position = Vector2(867, 303)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D17" type="GPUParticles2D" parent="ground/particles" unique_id=965564097]
+position = Vector2(918, 301)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D18" type="GPUParticles2D" parent="ground/particles" unique_id=482922765]
+position = Vector2(949, 303)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D19" type="GPUParticles2D" parent="ground/particles" unique_id=1801468956]
+position = Vector2(1007, 303)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D20" type="GPUParticles2D" parent="ground/particles" unique_id=2023356555]
+position = Vector2(1065, 303)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D21" type="GPUParticles2D" parent="ground/particles" unique_id=8798649]
+position = Vector2(1125, 303)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="GPUParticles2D22" type="GPUParticles2D" parent="ground/particles" unique_id=782550938]
+position = Vector2(589, 308)
+amount = 24
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_pvswe")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="ground" unique_id=816780307]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(576, 604.5)
+scale = Vector2(1, 3.625)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="nuvem de chuva" type="Node2D" parent="." unique_id=1832080223]
+modulate = Color(0.8217887, 0.82178867, 0.82178867, 1)
+
+[node name="Cloud" type="Sprite2D" parent="nuvem de chuva" unique_id=948447799]
+position = Vector2(267, 157)
+texture = ExtResource("1_pvswe")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvem de chuva" unique_id=307766479]
+position = Vector2(493, 153)
+texture = ExtResource("1_pvswe")
+
+[node name="Cloud3" type="Sprite2D" parent="nuvem de chuva" unique_id=2113519389]
+position = Vector2(641, 141)
+texture = ExtResource("1_pvswe")
+
+[node name="Cloud4" type="Sprite2D" parent="nuvem de chuva" unique_id=1860197302]
+position = Vector2(848, 149)
+texture = ExtResource("1_pvswe")
+
+[node name="Cloud5" type="Sprite2D" parent="nuvem de chuva" unique_id=437753836]
+position = Vector2(969, 149)
+texture = ExtResource("1_pvswe")
+
+[node name="sprites" type="Node2D" parent="." unique_id=631208015]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="sprites" unique_id=1048863805]
+position = Vector2(178, 545)
+sprite_frames = SubResource("SpriteFrames_8w0r3")
+autoplay = "default"
+
+[node name="PosteQSeguraOPluviometro" type="Sprite2D" parent="sprites" unique_id=297304739]
+position = Vector2(162, 545)
+texture = ExtResource("3_kj1te")
+
+[node name="HomiAndando" type="Sprite2D" parent="sprites" unique_id=1765568812]
+position = Vector2(206, 545)
+scale = Vector2(4, 4)
+texture = ExtResource("4_blu5k")
+
+[node name="GuardaChuvaDoHomAndando" type="Sprite2D" parent="sprites" unique_id=1460376842]
+position = Vector2(206, 537)
+scale = Vector2(4, 4)
+texture = ExtResource("5_hh7qi")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1318593193]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=288109310]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control" unique_id=859809288]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -406.0
+offset_top = -137.0
+offset_right = 406.0
+offset_bottom = 137.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/VBoxContainer" unique_id=1175638855]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("4_stvsb")
+theme_override_font_sizes/font_size = 32
+text = "-Precipitação-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/VBoxContainer" unique_id=1940648999]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_blu5k")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/VBoxContainer" unique_id=478384274]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("5_86dey")
+theme_override_fonts/bold_font = ExtResource("5_86dey")
+theme_override_fonts/bold_italics_font = ExtResource("5_86dey")
+theme_override_fonts/italics_font = ExtResource("5_86dey")
+theme_override_fonts/mono_font = ExtResource("5_86dey")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "	Quando se vê a presença de nuvens, é comum associá-las à chegada de chuvas, porém, nem sempre a presença de nuvens se limita somente a chuvas.
+	Quando as nuvens acumulam grande quantidade de água ou gelo, é comum que ocorram diferentes formas de precipitação. A precipitação é o termo utilizado para se referir a toda água que cai do céu em direção a superfície da terra.
+	A chuva é a forma mais comum de precipitação, porém, em temperaturas mais baixas, pode também ocorrer granizo e neve.
+	O instrumento utilizado para medir a precipitação é chamado pluviômetro, o qual coleta a água que cai em determinado intervalo de tempo. A quantidade de água registrada é expressa em milímetros (mm). A unidade representa a altura da lâmina de água sobre uma superfície da terra; ou seja, se em uma chuva são registrados 10 mm, a água armazenada geraria uma camada de 10 milímetros de altura sobre o solo - excluindo a possibilidade de infiltração, escoamento ou evaporação."
+fit_content = true
+
+[node name="page-owner" type="Label" parent="." unique_id=1884548151]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Cecília"
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1536399984]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=2134779003]
+libraries/ = SubResource("AnimationLibrary_c24t6")
+autoplay = &"fade-in"
+
+[connection signal="animation_finished" from="fade" to="." method="_on_fade_animation_finished"]
