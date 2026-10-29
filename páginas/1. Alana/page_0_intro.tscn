@@ -322,6 +322,14 @@ root_node = NodePath("../..")
 libraries/ = SubResource("AnimationLibrary_u81td")
 autoplay = &"homis_skiando_na_neve"
 
+[node name="page-owner" type="Label" parent="cenário da intro" unique_id=1688437876]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Alana"
+
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1893073090]
 
 [node name="Control" type="Control" parent="CanvasLayer" unique_id=1952962371]

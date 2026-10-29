@@ -1957,3 +1957,11 @@ text = "	As nimbostratus são nuvens escuras, associadas a chuvas contínuas e g
 
 	Nuvens de grande desenvolvimento vertical: São as cumulonimbus, associadas a tempestades, chuvas intensas, ventos fortes, raios e, em alguns casos, granizo."
 fit_content = true
+
+[node name="page-owner" type="Label" parent="." unique_id=897928924]
+offset_left = 970.0
+offset_top = 622.0
+offset_right = 1145.0
+offset_bottom = 645.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Anna Luiza"

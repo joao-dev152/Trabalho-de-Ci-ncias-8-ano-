@@ -434,4 +434,12 @@ fit_content = true
 visible_characters = 0
 visible_ratio = 0.0
 
+[node name="page-owner" type="Label" parent="." unique_id=144786938]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Anna Luiza"
+
 [connection signal="animation_finished" from="fade" to="." method="_on_fade_animation_finished"]

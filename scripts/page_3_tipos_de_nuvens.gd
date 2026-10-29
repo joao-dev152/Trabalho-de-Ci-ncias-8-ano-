@@ -17,8 +17,8 @@ func _input(event: InputEvent) -> void:
 		await fade.animation_finished
 		get_tree().change_scene_to_file("res://páginas/2. Anna Luiza/page_2_temperatura_e_nebulosidade.tscn")
 	
-	#if event.is_action_pressed("right-down") and _has_started:
-		#fade.play("fade-out")
-		#_is_turning_page = true
-		#await fade.animation_finished
-		#get_tree().change_scene_to_file("")
+	if event.is_action_pressed("right-down") and _has_started:
+		fade.play("fade-out")
+		_is_turning_page = true
+		await fade.animation_finished
+		get_tree().change_scene_to_file("res://páginas/2. Anna Luiza/page_4_experimento.tscn")
