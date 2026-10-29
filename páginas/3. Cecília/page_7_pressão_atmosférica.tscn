@@ -1,0 +1,522 @@
+[gd_scene format=3 uid="uid://cb7u2tifhxp1s"]
+
+[ext_resource type="Script" uid="uid://bjupnnp2no47s" path="res://scripts/page_7_pressão_atmosférica.gd" id="1_biblr"]
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="1_ee8tk"]
+[ext_resource type="Texture2D" uid="uid://bt00sed7om8vr" path="res://data/assets/Clouds/cloud.png" id="2_805lb"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="3_d33p7"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="4_biblr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_h4t55"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_8w0r3"]
+particle_flag_disable_z = true
+gravity = Vector3(12.25, 0, 0)
+scale_min = 0.049999997
+scale_max = 0.099999994
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m5a5i"]
+
+[sub_resource type="Animation" id="Animation_d33p7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Label:visible_ratio")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Label2:visible_ratio")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Label3:visible_ratio")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_biblr"]
+resource_name = "fade-in"
+length = 3.0000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.4, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Label:visible_ratio")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Label2:visible_ratio")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Label3:visible_ratio")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_m5a5i"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_m5a5i"]
+_data = {
+&"RESET": SubResource("Animation_d33p7"),
+&"fade-in": SubResource("Animation_biblr"),
+&"fade-out": SubResource("Animation_m5a5i")
+}
+
+[node name="page_7_pressão_atmosférica" type="Node2D" unique_id=1796039821]
+script = ExtResource("1_biblr")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=349048267]
+offset_left = -2849.0
+offset_top = -1285.0
+offset_right = 4685.0
+offset_bottom = 1775.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="homis" type="Node2D" parent="." unique_id=1572285972]
+
+[node name="HomiAndando" type="Sprite2D" parent="homis" unique_id=1887411465]
+position = Vector2(1130, 594)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando2" type="Sprite2D" parent="homis" unique_id=650551624]
+position = Vector2(1143, 595)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando3" type="Sprite2D" parent="homis" unique_id=1007562757]
+position = Vector2(1114, 596)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando4" type="Sprite2D" parent="homis" unique_id=473368607]
+position = Vector2(1071, 588)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando5" type="Sprite2D" parent="homis" unique_id=1349601544]
+position = Vector2(1060, 588)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando6" type="Sprite2D" parent="homis" unique_id=446209281]
+position = Vector2(1047, 588)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando7" type="Sprite2D" parent="homis" unique_id=713319564]
+position = Vector2(1033, 589)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando8" type="Sprite2D" parent="homis" unique_id=1417129725]
+position = Vector2(720, 568)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando9" type="Sprite2D" parent="homis" unique_id=64704320]
+position = Vector2(764, 568)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando10" type="Sprite2D" parent="homis" unique_id=312187702]
+position = Vector2(808, 568)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando11" type="Sprite2D" parent="homis" unique_id=1774834550]
+position = Vector2(667, 568)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando12" type="Sprite2D" parent="homis" unique_id=972698196]
+position = Vector2(128, 354)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando13" type="Sprite2D" parent="homis" unique_id=1271614963]
+position = Vector2(109, 354)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando14" type="Sprite2D" parent="homis" unique_id=639410946]
+position = Vector2(85, 354)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="HomiAndando15" type="Sprite2D" parent="homis" unique_id=2045515797]
+position = Vector2(50, 354)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ee8tk")
+
+[node name="cenario" type="Node2D" parent="." unique_id=1442771079]
+
+[node name="ocean" type="MeshInstance2D" parent="cenario" unique_id=2077803466]
+modulate = Color(0, 0.39607844, 1, 1)
+position = Vector2(1109, 612.00006)
+scale = Vector2(86.500015, 24.500015)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="sand" type="MeshInstance2D" parent="cenario" unique_id=2052352646]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(1001.75006, 622.5)
+scale = Vector2(145.49995, 53.000034)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand2" type="MeshInstance2D" parent="cenario" unique_id=1657175008]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(1113, 635.5)
+scale = Vector2(77.99995, 27.000057)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand3" type="MeshInstance2D" parent="cenario" unique_id=875944067]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(1080.2059, 611.44745)
+rotation = 0.2617994
+scale = Vector2(20.712753, 27.000055)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand4" type="MeshInstance2D" parent="cenario" unique_id=1190735238]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(1096, 618)
+rotation = 0.5235988
+scale = Vector2(20.712753, 27.000057)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand5" type="MeshInstance2D" parent="cenario" unique_id=574292925]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(1099, 622.00006)
+rotation = 1.5707964
+scale = Vector2(20.712753, 27.000057)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand6" type="MeshInstance2D" parent="cenario" unique_id=1316095060]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(940.0001, 590.00006)
+rotation = 1.8325958
+scale = Vector2(20.712753, 27.000057)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="sand7" type="MeshInstance2D" parent="cenario" unique_id=2020046251]
+modulate = Color(0.9999996, 0.92768383, 0.6390532, 1)
+position = Vector2(958, 599.99994)
+rotation = 2.3561945
+scale = Vector2(20.712753, 27.000057)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="grass" type="MeshInstance2D" parent="cenario" unique_id=2142119897]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(206.625, 504.87497)
+scale = Vector2(410.74997, 285.75)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="grass2" type="MeshInstance2D" parent="cenario" unique_id=740619312]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(448.24652, 542.61926)
+rotation = 0.7853982
+scale = Vector2(306.92664, 202.92563)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="grass3" type="MeshInstance2D" parent="cenario" unique_id=1275404222]
+modulate = Color(0, 0.6392157, 0, 1)
+position = Vector2(745, 612)
+scale = Vector2(370, 72.00001)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="particles" type="Node2D" parent="." unique_id=1174616138]
+position = Vector2(-2, 17)
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="particles" unique_id=375828748]
+position = Vector2(1, 53)
+amount = 4
+texture = ExtResource("2_805lb")
+lifetime = 20.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="particles" unique_id=1519746400]
+position = Vector2(-14, 114)
+amount = 4
+texture = ExtResource("2_805lb")
+lifetime = 20.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="particles" unique_id=987098371]
+position = Vector2(17, 174)
+amount = 4
+texture = ExtResource("2_805lb")
+lifetime = 20.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="GPUParticles2D4" type="GPUParticles2D" parent="particles" unique_id=202717790]
+position = Vector2(-31, 2)
+amount = 4
+texture = ExtResource("2_805lb")
+lifetime = 20.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="GPUParticles2D5" type="GPUParticles2D" parent="particles" unique_id=158931635]
+position = Vector2(-14, 145)
+amount = 4
+texture = ExtResource("2_805lb")
+lifetime = 20.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1222973264]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=609468868]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control" unique_id=138432835]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -406.0
+offset_top = -137.0
+offset_right = 406.0
+offset_bottom = 137.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/VBoxContainer" unique_id=1232740879]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3_d33p7")
+theme_override_font_sizes/font_size = 32
+text = "-Pressão Atmosférica-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/VBoxContainer" unique_id=1463558608]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_m5a5i")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/VBoxContainer" unique_id=1840977039]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("4_biblr")
+theme_override_fonts/bold_font = ExtResource("4_biblr")
+theme_override_fonts/bold_italics_font = ExtResource("4_biblr")
+theme_override_fonts/italics_font = ExtResource("4_biblr")
+theme_override_fonts/mono_font = ExtResource("4_biblr")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "	A pressão atmosférica é a força que a coluna de ar exerce sobre determinada área da superfície terrestre. Esta pressão é medida por meio de um instrumento chamado barômetro.
+	As variações da pressão atmosférica estão relacionadas a condições do tempo, principalmente à umidade do ar e à ocorrência de chuvas.
+	Uma pressão atmosférica elevada indica ar mais seco, ou seja, com menor probabilidade de precipitação.
+	A queda da pressão, porém, ocorre em condições de maior umidade e pode indicar a chegada de chuvas."
+fit_content = true
+
+[node name="page-owner" type="Label" parent="." unique_id=1685569647]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Cecília"
+
+[node name="Label" type="Label" parent="." unique_id=757931081]
+offset_left = 10.0
+offset_top = 295.0
+offset_right = 84.0
+offset_bottom = 344.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "1500m:
+846 hPa"
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="Label2" type="Label" parent="." unique_id=269468243]
+offset_left = 700.0
+offset_top = 509.0
+offset_right = 774.0
+offset_bottom = 558.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "300m:
+978 hPa"
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="Label3" type="Label" parent="." unique_id=208735895]
+offset_left = 1059.0
+offset_top = 533.0
+offset_right = 1133.0
+offset_bottom = 582.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "0m:
+1013 hPa"
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=552407997]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=307690204]
+libraries/ = SubResource("AnimationLibrary_m5a5i")
+
+[connection signal="animation_finished" from="fade" to="." method="_on_fade_animation_finished"]

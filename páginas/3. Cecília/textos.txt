@@ -19,4 +19,4 @@ Ambos valores de umidade muito baixos ou muito elevados podem favorecer o descon
 A pressão atmosférica é a força que a coluna de ar exerce sobre determinada área da superfície terrestre. Esta pressão é medida por meio de um instrumento chamado barômetro.
 As variações da pressão atmosférica estão relacionadas a condições do tempo, principalmente à umidade do ar e à ocorrência de chuvas.
 Uma pressão atmosférica elevada indica ar mais seco, ou seja, com menor probabilidade de precipitação.
- A queda da pressão, porém, ocorre em condições de maior umidade e pode indicar a chegada de chuvas.
+A queda da pressão, porém, ocorre em condições de maior umidade e pode indicar a chegada de chuvas.

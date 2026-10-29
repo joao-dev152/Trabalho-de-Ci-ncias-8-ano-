@@ -1,14 +1,14 @@
 AnimationPlayer
 CanvasModulate
+CanvasLayer
 Label
-MeshInstance2D
 Node2D
 GPUParticles2D
+MeshInstance2D
 AnimatedSprite2D
 HSeparator
 VBoxContainer
 Node
 MarginContainer
 PanelContainer
-CanvasLayer
 Sprite2D
