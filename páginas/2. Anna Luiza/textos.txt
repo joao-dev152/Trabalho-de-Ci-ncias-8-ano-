@@ -11,7 +11,7 @@
 - Nuvens baixas: stratocumulus, stratus, cumulus e nimbostratus. 
    - As nimbostratus são nuvens escuras, associadas a chuvas contínuas e geralmente de baixa intensidade.
 - Nuvens de grande desenvolvimento vertical: 
-   - São às cumulonimbus, associadas a tempestades, chuvas intensas, ventos fortes, raios e, em alguns casos, granizo.
+   - São as cumulonimbus, associadas a tempestades, chuvas intensas, ventos fortes, raios e, em alguns casos, granizo.
 
 
 
