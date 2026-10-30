@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793311349
+::res://::1793362348
 icon.svg::CompressedTexture2D::3412666571687707852::1791545242::1791545280::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://data/::1792257375
 button-theme.tres::Theme::805352178042960999::1792257375::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
@@ -33,10 +33,11 @@ page_2_temperatura_e_nebulosidade.tscn::PackedScene::4111123791313391164::179327
 page_3_tipos_de_nuvens.tscn::PackedScene::998029597645047981::1793274215::0::1::::<><><>0<>0<><>::uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://djxkty5n5ymdx::::res://scripts/page_3_tipos_de_nuvens.gd<>uid://bdvsnb633yllm::::res://data/assets/fnt/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 page_4_experimento.tscn::PackedScene::9085007861723632647::1793274893::0::1::::<><><>0<>0<><>::uid://d4cosg3iyny1c::::res://scripts/page_4_experimento.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 textos.txt::TextFile::-1::1793231616::0::1::::<><><>0<>0<><>::
-::res://páginas/3. Cecília/::1793278332
+::res://páginas/3. Cecília/::1793318186
 page_5_precipitação.tscn::PackedScene::9053749693762904150::1793277780::0::1::::<><><>0<>0<><>::uid://dhlk4l7luyxh7::::res://scripts/page_5_precipitação.gd<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://bdtke5dkyhrmo::::res://data/assets/pluviometro.png<>uid://dt5w6rmbvwdn5::::res://data/assets/poste_q_segura_o_pluviometro.png<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf<>uid://cv6sye4i1r64k::::res://data/assets/guarda_chuva_do_hom_andando.png
-page_6_umidade_do_ar.tscn::PackedScene::3836967991374352736::1793278332::0::1::::<><><>0<>0<><>::uid://b6t88qt5fnnce::::res://data/assets/water_drop.png<>uid://mrdjgxupnqc0::::res://scripts/page_6_umidade_do_ar.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-textos.txt::TextFile::-1::1793277824::0::1::::<><><>0<>0<><>::
+page_6_umidade_do_ar.tscn::PackedScene::3836967991374352736::1793318151::0::1::::<><><>0<>0<><>::uid://b6t88qt5fnnce::::res://data/assets/water_drop.png<>uid://mrdjgxupnqc0::::res://scripts/page_6_umidade_do_ar.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png
+page_7_pressão_atmosférica.tscn::PackedScene::4910353865984450570::1793318186::0::1::::<><><>0<>0<><>::uid://bjupnnp2no47s::::res://scripts/page_7_pressão_atmosférica.gd<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
+textos.txt::TextFile::-1::1793316967::0::1::::<><><>0<>0<><>::
 ::res://páginas/4. Clarice/::1793052940
 textos.txt::TextFile::-1::1793052940::0::1::::<><><>0<>0<><>::
 ::res://páginas/5. Eduarda/::1792954667
@@ -47,12 +48,13 @@ textos.txt::TextFile::-1::1793106304::0::1::::<><><>0<>0<><>::
 textos.txt::TextFile::-1::1792250730::0::1::::<><><>0<>0<><>::
 ::res://páginas/8. João Guilherme/::1792256150
 textos.txt::TextFile::-1::1792256150::0::1::::<><><>0<>0<><>::
-::res://scripts/::1793278244
+::res://scripts/::1793318151
 page_1_previsao_do_tempo.gd::GDScript::3391060474847098643::1793276519::0::1::::<>Node2D<><>0<>0<><>::
 page_2_temperatura_e_nebulosidade.gd::GDScript::6710372493574990290::1793276526::0::1::::<>Node2D<><>0<>0<><>::
 page_3_tipos_de_nuvens.gd::GDScript::7839084739713070957::1793276531::0::1::::<>Node2D<><>0<>0<><>::
 page_4_experimento.gd::GDScript::9199749813070100030::1793276537::0::1::::<>Control<><>0<>0<><>::
 page_5_precipitação.gd::GDScript::7673951697509173450::1793277780::0::1::::<>Node2D<><>0<>0<><>::
-page_6_umidade_do_ar.gd::GDScript::877559120198733749::1793278244::0::1::::<>Node2D<><>0<>0<><>::
+page_6_umidade_do_ar.gd::GDScript::877559120198733749::1793318151::0::1::::<>Node2D<><>0<>0<><>::
+page_7_pressão_atmosférica.gd::GDScript::3060342508949180454::1793318016::0::1::::<>Node2D<><>0<>0<><>::
 particle_group_control.gd::GDScript::6257308880142776892::1793108474::0::1::::<>Node2D<><>0<>1<><>::
 tittle_screen.gd::GDScript::7258624445339998002::1793110355::0::1::::<>Node2D<><>0<>0<><>::

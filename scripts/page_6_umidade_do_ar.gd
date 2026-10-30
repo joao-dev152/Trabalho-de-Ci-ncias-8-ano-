@@ -16,7 +16,7 @@ func _input(event: InputEvent) -> void:
 		fade.play("fade-out")
 		_is_turning_page = true
 		await fade.animation_finished
-		get_tree().change_scene_to_file("res://páginas/3. Cecília/page_6_umidade_do_ar.tscn")
+		get_tree().change_scene_to_file("res://páginas/3. Cecília/page_7_pressão_atmosférica.tscn")
 
 
 func _on_fade_animation_finished(anim_name: StringName) -> void:
