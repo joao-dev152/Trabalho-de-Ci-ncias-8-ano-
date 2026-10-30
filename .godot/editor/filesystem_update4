@@ -1,1 +1,4 @@
 res://páginas/3. Cecília/page_7_pressão_atmosférica.tscn
+res://páginas/4. Clarice/page_8_ventos.tscn
+res://scripts/page_7_pressão_atmosférica.gd
+res://scripts/page_8_ventos.gd

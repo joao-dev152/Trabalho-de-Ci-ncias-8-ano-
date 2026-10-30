@@ -1,0 +1,300 @@
+[gd_scene format=3 uid="uid://bunqw2t8o5l6f"]
+
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="1_8gvvi"]
+[ext_resource type="Script" uid="uid://bhidoqfntlevj" path="res://scripts/page_8_ventos.gd" id="1_hbsxe"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_vicmn"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hbsxe"]
+
+[sub_resource type="CurveTexture" id="CurveTexture_w7mgy"]
+
+[sub_resource type="Gradient" id="Gradient_vicmn"]
+colors = PackedColorArray(1, 0.9019608, 0.41568628, 0.4509804, 1, 0.9019608, 0.41568628, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_h4t55"]
+gradient = SubResource("Gradient_vicmn")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_8w0r3"]
+particle_flag_disable_z = true
+angular_velocity_min = -177.23001
+angular_velocity_max = 310.14996
+gravity = Vector3(24, 0, 0)
+scale_min = 10.0
+scale_max = 15.0
+color_ramp = SubResource("GradientTexture1D_h4t55")
+alpha_curve = SubResource("CurveTexture_w7mgy")
+
+[sub_resource type="Animation" id="Animation_vicmn"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_hbsxe"]
+resource_name = "fade-in"
+length = 3.0000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_tsegl"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tsegl"]
+_data = {
+&"RESET": SubResource("Animation_vicmn"),
+&"fade-in": SubResource("Animation_hbsxe"),
+&"fade-out": SubResource("Animation_tsegl")
+}
+
+[node name="page_8_ventos" type="Node2D" unique_id=102775860]
+script = ExtResource("1_hbsxe")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=474147703]
+offset_left = -2849.0
+offset_top = -1285.0
+offset_right = 4685.0
+offset_bottom = 1775.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1390748776]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=849711564]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=477751340]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=249323026]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1905954200]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("1_8gvvi")
+theme_override_font_sizes/font_size = 32
+text = "-Ventos-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1844747786]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_hbsxe")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1374622243]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("2_vicmn")
+theme_override_fonts/bold_font = ExtResource("2_vicmn")
+theme_override_fonts/bold_italics_font = ExtResource("2_vicmn")
+theme_override_fonts/italics_font = ExtResource("2_vicmn")
+theme_override_fonts/mono_font = ExtResource("2_vicmn")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "Como o ar se movimenta?
+		O ar entra em movimento por causa da diferença de pressão atmosférica, em que o ar tende a se deslocar das áreas de maior pressão atmosférica para as áreas de menor pressão. Quando o ar se move horizontalmente ele é chamado de vento, mas quando se move verticalmente é chamado de corrente de ar.
+
+Como \"medir\" o ar?
+		A velocidade dos ventos é medida pelo anemômetro, já a sua direção é indicada pela biruta. Ventos com velocidades superiores a 60 km/h podem oferecer alguns riscos, mas quando ultrapassam 100 km/h podem ser eventos meteorológicos extremos.
+
+Como diferenciar os fenômenos atmosféricos?
+		Ciclone: é um sistema atmosférico de baixa pressão, podendo ser tropical ou extratropical
+		Furacão: é um ciclone tropical que se forma no Oceano Atlântico Norte ou Pacífico Nordeste e é classificado em 5 categorias de acordo com a Escala Saffir-Simpson.
+		Tufão: é um ciclone tropical que se forma no Oceano Pacifico Noroeste, especialmente perto da Ásia.
+		Tornado: é um fenômeno atmosférico de pequena escala que se foma e acontece no continente, ele tem seis categorias de acordo com a Escala Fujita.
+"
+fit_content = true
+
+[node name="wind" type="GPUParticles2D" parent="." unique_id=1892786538]
+position = Vector2(-17, 159)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind2" type="GPUParticles2D" parent="." unique_id=1132651305]
+position = Vector2(-8, 228)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind3" type="GPUParticles2D" parent="." unique_id=448688062]
+position = Vector2(-25, 74)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind4" type="GPUParticles2D" parent="." unique_id=538106955]
+position = Vector2(-8, 40)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind5" type="GPUParticles2D" parent="." unique_id=191299297]
+position = Vector2(-8, 289)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind6" type="GPUParticles2D" parent="." unique_id=53550778]
+position = Vector2(-8, 349)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind7" type="GPUParticles2D" parent="." unique_id=1051863465]
+position = Vector2(-12, 422)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind8" type="GPUParticles2D" parent="." unique_id=1603395403]
+position = Vector2(-21, 503)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="wind9" type="GPUParticles2D" parent="." unique_id=611066585]
+position = Vector2(-21, 589)
+amount = 4
+lifetime = 10.0
+process_material = SubResource("ParticleProcessMaterial_8w0r3")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=584739090]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=1239808557]
+libraries/ = SubResource("AnimationLibrary_tsegl")
+autoplay = &"fade-in"
+
+[node name="page-owner" type="Label" parent="." unique_id=536495886]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Clarice"
+
+[connection signal="animation_finished" from="fade" to="." method="_on_fade_animation_finished"]
