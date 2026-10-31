@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://cc70lvnu002jh"]
+
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="1_ixllm"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_ec7ai"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e4hjw"]
+
+[node name="page_10_mudanças_climaticas" type="Node2D" unique_id=492642520]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1728433073]
+offset_left = -2849.0
+offset_top = -1285.0
+offset_right = 4685.0
+offset_bottom = 1775.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=678794574]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1093571447]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=1833717200]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=398599249]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1079183367]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("1_ixllm")
+theme_override_font_sizes/font_size = 32
+text = "-Mudanças Climáticas-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=655850218]
+layout_mode = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_e4hjw")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1763445240]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("2_ec7ai")
+theme_override_fonts/bold_font = ExtResource("2_ec7ai")
+theme_override_fonts/bold_italics_font = ExtResource("2_ec7ai")
+theme_override_fonts/italics_font = ExtResource("2_ec7ai")
+theme_override_fonts/mono_font = ExtResource("2_ec7ai")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "	​São mudanças relacionadas ao clima, em particular: secas, tempestades rigorosas e verões quentes e invernos mais frios são algumas das consequências das mudanças climáticas."
+fit_content = true
+
+[node name="page-owner" type="Label" parent="." unique_id=462243557]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Samuel"
