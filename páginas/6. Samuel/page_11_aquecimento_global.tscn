@@ -1,3 +1,298 @@
 [gd_scene format=3 uid="uid://c2e2epkcm1c57"]
 
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="1_q1drb"]
+[ext_resource type="Texture2D" uid="uid://bhgxd5dui3u1g" path="res://data/assets/earth.png" id="1_tq7tq"]
+[ext_resource type="Script" uid="uid://cmhqn1c5e3km4" path="res://scripts/page_11_aquecimento_global.gd" id="1_u05hc"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_tq7tq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u05hc"]
+
+[sub_resource type="Animation" id="Animation_ixllm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_ec7ai"]
+resource_name = "fade-in"
+length = 2.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_e4hjw"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_u05hc"]
+_data = {
+&"RESET": SubResource("Animation_ixllm"),
+&"fade-in": SubResource("Animation_ec7ai"),
+&"fade-out": SubResource("Animation_e4hjw")
+}
+
 [node name="page_11_aquecimento_global" type="Node2D" unique_id=889064738]
+script = ExtResource("1_u05hc")
+
+[node name="cenario interativo" type="Node2D" parent="." unique_id=927000755]
+
+[node name="atmosfera" type="Polygon2D" parent="cenario interativo" unique_id=1689399700]
+position = Vector2(0, 105)
+color = Color(0.635, 0.635, 0.635, 0.569)
+polygon = PackedVector2Array(1, 387, 102, 343, 225, 304, 369, 281, 543, 273, 708, 283, 868.90375, 301.26688, 1036, 341, 1154, 380, 1152, 260, 1134, 256, 1104, 244, 1066, 234, 1030, 223, 990, 213, 959, 204, 929, 194, 898, 190, 870, 186, 820, 182, 766, 174, 714, 167, 667, 161, 608, 155, 562, 152, 499, 155, 474, 158, 438, 162, 394, 168, 361, 170, 333, 173, 295, 175, 263, 176, 224, 182, 196, 188, 169, 192, 123, 203, 86, 213, 53, 219, 15, 227, -3, 233)
+
+[node name="raio solar" type="Line2D" parent="cenario interativo" unique_id=1485663325]
+points = PackedVector2Array(45, 194, 195, 518)
+default_color = Color(1, 0.88235295, 0, 1)
+
+[node name="raio solar2" type="Line2D" parent="cenario interativo" unique_id=396048654]
+position = Vector2(41, -12)
+points = PackedVector2Array(45, 194, 195, 518)
+default_color = Color(1, 0.88235295, 0, 1)
+
+[node name="raio solar3" type="Line2D" parent="cenario interativo" unique_id=1385608985]
+position = Vector2(94, -20)
+points = PackedVector2Array(45, 194, 195, 518)
+default_color = Color(1, 0.88235295, 0, 1)
+
+[node name="Earth" type="Sprite2D" parent="cenario interativo" unique_id=1851785414]
+position = Vector2(557, 1410)
+rotation = -1.0471976
+scale = Vector2(4, 4)
+texture = ExtResource("1_tq7tq")
+
+[node name="escapam" type="Line2D" parent="cenario interativo" unique_id=1331337224]
+points = PackedVector2Array(497, 445, 494, 64)
+width = 19.25
+default_color = Color(1, 0.28627452, 0, 1)
+
+[node name="voltando" type="Line2D" parent="cenario interativo" unique_id=441457989]
+points = PackedVector2Array(497, 333, 678, 454)
+default_color = Color(0.8784314, 0, 0, 1)
+
+[node name="seta" type="Polygon2D" parent="cenario interativo" unique_id=1170331416]
+position = Vector2(10, 9)
+color = Color(1, 0.28627452, 0, 1)
+polygon = PackedVector2Array(449, 69, 485, 44, 516, 71, 506, 76, 484, 56, 458, 73)
+
+[node name="seta2" type="Polygon2D" parent="cenario interativo" unique_id=248459069]
+position = Vector2(904, 20.99997)
+rotation = 1.9414861
+color = Color(0.8784314, 0, 0, 1)
+polygon = PackedVector2Array(449, 69, 485, 44, 516, 71, 506, 76, 484, 56, 458, 73)
+
+[node name="raios solares" type="Label" parent="cenario interativo" unique_id=352616267]
+offset_left = 136.0
+offset_top = 160.0
+offset_right = 247.0
+offset_bottom = 183.0
+text = "raios solares"
+
+[node name="raios solares2" type="Label" parent="cenario interativo" unique_id=606298923]
+offset_left = 518.0
+offset_top = 93.0
+offset_right = 629.0
+offset_bottom = 116.0
+text = "raios solares que passam pela atmosfera"
+
+[node name="raios solares3" type="Label" parent="cenario interativo" unique_id=1590201025]
+offset_left = 627.0
+offset_top = 387.0
+offset_right = 738.0
+offset_bottom = 410.0
+text = "raios solares que retornam para a Terra"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=312984113]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=2133442836]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=1874617420]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=1347861270]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=2076859172]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("1_q1drb")
+theme_override_font_sizes/font_size = 32
+text = "-Aquecimento global-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1136544048]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_u05hc")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1223090875]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("2_tq7tq")
+theme_override_fonts/bold_font = ExtResource("2_tq7tq")
+theme_override_fonts/bold_italics_font = ExtResource("2_tq7tq")
+theme_override_fonts/italics_font = ExtResource("2_tq7tq")
+theme_override_fonts/mono_font = ExtResource("2_tq7tq")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "É o aumento da temperatura em escala global, devido à emissão de gases de efeito estufa, como o dióxido de carbono (CO_2). Uma das consequências disso é a desregulação do clima devido às altas temperaturas."
+fit_content = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=1617314424]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/HBoxContainer" unique_id=1688662241]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Nível relativo de gases de efeito estufa:"
+
+[node name="HScrollBar" type="HScrollBar" parent="CanvasLayer/Control/MarginContainer/HBoxContainer" unique_id=1862306442]
+custom_minimum_size = Vector2(256, 16)
+layout_mode = 2
+step = 1.0
+value = 55.0
+
+[node name="page-owner" type="Label" parent="." unique_id=1673898722]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Samuel"
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=217973084]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=1725909469]
+libraries/ = SubResource("AnimationLibrary_u05hc")
+autoplay = &"fade-in"
