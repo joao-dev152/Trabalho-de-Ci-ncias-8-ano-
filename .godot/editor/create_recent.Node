@@ -1,8 +1,8 @@
-CanvasModulate
 AnimationPlayer
+CanvasModulate
+MeshInstance2D
 GPUParticles2D
 VideoStreamPlayer
-MeshInstance2D
 Node2D
 Node
 VBoxContainer

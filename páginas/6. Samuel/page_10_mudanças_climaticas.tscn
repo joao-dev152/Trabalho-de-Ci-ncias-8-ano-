@@ -1,11 +1,177 @@
 [gd_scene format=3 uid="uid://cc70lvnu002jh"]
 
+[ext_resource type="Script" uid="uid://b8qfkan8rm45y" path="res://scripts/page_10_mudanças_climaticas.gd" id="1_ec7ai"]
 [ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="1_ixllm"]
 [ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_ec7ai"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e4hjw"]
 
+[sub_resource type="BoxMesh" id="BoxMesh_jsi7b"]
+
+[sub_resource type="Animation" id="Animation_ixllm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_ec7ai"]
+resource_name = "fade-in"
+length = 2.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_e4hjw"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e4hjw"]
+_data = {
+&"RESET": SubResource("Animation_ixllm"),
+&"fade-in": SubResource("Animation_ec7ai"),
+&"fade-out": SubResource("Animation_e4hjw")
+}
+
+[sub_resource type="Animation" id="Animation_7kju4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0.7254902, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_0yis3"]
+resource_name = "mudanças climaticas"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0.7254902, 0, 1), Color(0.99999946, 0.9165232, 0.4194427, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lm0d8"]
+_data = {
+&"RESET": SubResource("Animation_7kju4"),
+&"mudanças climaticas": SubResource("Animation_0yis3")
+}
+
 [node name="page_10_mudanças_climaticas" type="Node2D" unique_id=492642520]
+script = ExtResource("1_ec7ai")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1728433073]
 offset_left = -2849.0
@@ -73,6 +239,12 @@ bbcode_enabled = true
 text = "	​São mudanças relacionadas ao clima, em particular: secas, tempestades rigorosas e verões quentes e invernos mais frios são algumas das consequências das mudanças climáticas."
 fit_content = true
 
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1219083021]
+modulate = Color(0, 0.7254902, 0, 1)
+position = Vector2(576.625, 629.375)
+scale = Vector2(1156.75, 40.75001)
+mesh = SubResource("BoxMesh_jsi7b")
+
 [node name="page-owner" type="Label" parent="." unique_id=462243557]
 offset_left = 5.0
 offset_top = 617.0
@@ -80,3 +252,12 @@ offset_right = 90.0
 offset_bottom = 640.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "Textos por: Samuel"
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=2048999665]
+libraries/ = SubResource("AnimationLibrary_e4hjw")
+autoplay = &"fade-in"
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1251958567]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=511784776]
+libraries/ = SubResource("AnimationLibrary_lm0d8")
