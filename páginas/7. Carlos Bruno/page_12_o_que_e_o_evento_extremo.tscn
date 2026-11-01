@@ -1,0 +1,411 @@
+[gd_scene format=3 uid="uid://b6xw34omcwyh7"]
+
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="1_brxlv"]
+[ext_resource type="Script" uid="uid://dcx1es4o4do3l" path="res://scripts/page_12_o_que_e_o_evento_extremo.gd" id="1_ejcyd"]
+[ext_resource type="Texture2D" uid="uid://bt00sed7om8vr" path="res://data/assets/Clouds/cloud.png" id="2_3dfgv"]
+[ext_resource type="Texture2D" uid="uid://cng8hjfdgmjjx" path="res://data/assets/light2D-gradient.png" id="3_en1gt"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="4_stbsj"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="5_l1ck0"]
+[ext_resource type="Texture2D" uid="uid://bw8ojwn4h73hl" path="res://data/assets/termometro-pixel-art.png" id="6_l1ck0"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_3dfgv"]
+particle_flag_disable_z = true
+initial_velocity_min = -25.0
+initial_velocity_max = -10.0
+gravity = Vector3(0, 98, 0)
+scale_min = 0.0
+scale_max = 10.0
+color = Color(0, 0, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3dfgv"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_8w0r3"]
+radius = 200.0
+height = 400.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ejcyd"]
+
+[sub_resource type="Animation" id="Animation_ixllm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_ec7ai"]
+resource_name = "fade-in"
+length = 2.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_e4hjw"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sy5s4"]
+_data = {
+&"RESET": SubResource("Animation_ixllm"),
+&"fade-in": SubResource("Animation_ec7ai"),
+&"fade-out": SubResource("Animation_e4hjw")
+}
+
+[node name="page-12_o_que_e_o_evento_extremo" type="Node2D" unique_id=1960440074]
+script = ExtResource("1_ejcyd")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=636290068]
+offset_left = -1096.0
+offset_top = -632.0
+offset_right = 2422.0
+offset_bottom = 941.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="nuvem" type="Node2D" parent="." unique_id=1547200281]
+
+[node name="particles" type="Node2D" parent="nuvem" unique_id=1041677379]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="nuvem/particles" unique_id=2115562052]
+position = Vector2(13, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="nuvem/particles" unique_id=1828686324]
+position = Vector2(45, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="nuvem/particles" unique_id=2073889379]
+position = Vector2(92, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D4" type="GPUParticles2D" parent="nuvem/particles" unique_id=1078969432]
+position = Vector2(71, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D5" type="GPUParticles2D" parent="nuvem/particles" unique_id=1550200615]
+position = Vector2(118, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D6" type="GPUParticles2D" parent="nuvem/particles" unique_id=833218994]
+position = Vector2(142, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D7" type="GPUParticles2D" parent="nuvem/particles" unique_id=1539156172]
+position = Vector2(169, 273)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D8" type="GPUParticles2D" parent="nuvem/particles" unique_id=170481891]
+position = Vector2(205, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D9" type="GPUParticles2D" parent="nuvem/particles" unique_id=1044529543]
+position = Vector2(235, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D10" type="GPUParticles2D" parent="nuvem/particles" unique_id=830594870]
+position = Vector2(268, 277)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D11" type="GPUParticles2D" parent="nuvem/particles" unique_id=223278981]
+position = Vector2(312, 274)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D12" type="GPUParticles2D" parent="nuvem/particles" unique_id=1352285099]
+position = Vector2(356, 272)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D13" type="GPUParticles2D" parent="nuvem/particles" unique_id=1821813789]
+position = Vector2(392, 274)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D14" type="GPUParticles2D" parent="nuvem/particles" unique_id=2085926933]
+position = Vector2(416, 274)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D15" type="GPUParticles2D" parent="nuvem/particles" unique_id=1747617475]
+position = Vector2(452, 277)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D16" type="GPUParticles2D" parent="nuvem/particles" unique_id=1018301585]
+position = Vector2(488, 275)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D17" type="GPUParticles2D" parent="nuvem/particles" unique_id=321716304]
+position = Vector2(526, 273)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="GPUParticles2D18" type="GPUParticles2D" parent="nuvem/particles" unique_id=1978237600]
+position = Vector2(553, 273)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_3dfgv")
+
+[node name="Cloud" type="Sprite2D" parent="nuvem" unique_id=1773197108]
+position = Vector2(100, 118)
+texture = ExtResource("2_3dfgv")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvem" unique_id=1768581222]
+position = Vector2(380, 118)
+texture = ExtResource("2_3dfgv")
+
+[node name="cenario" type="Node2D" parent="." unique_id=2124537952]
+
+[node name="ground" type="Node2D" parent="cenario" unique_id=86339940]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="cenario/ground" unique_id=887063766]
+modulate = Color(0, 0.68235296, 0, 1)
+position = Vector2(281.37497, 631)
+scale = Vector2(559.25006, 36.000004)
+mesh = SubResource("BoxMesh_3dfgv")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="cenario/ground" unique_id=1504565456]
+modulate = Color(1, 0.7961905, 0.41059563, 1)
+position = Vector2(856.3125, 631)
+scale = Vector2(590.62506, 36.000004)
+mesh = SubResource("BoxMesh_3dfgv")
+
+[node name="HomiAndando" type="Sprite2D" parent="." unique_id=1480476738]
+position = Vector2(514, 606)
+scale = Vector2(2, 2)
+texture = ExtResource("1_brxlv")
+
+[node name="HomiAndando2" type="Sprite2D" parent="." unique_id=878526205]
+position = Vector2(596, 606)
+scale = Vector2(2, 2)
+texture = ExtResource("1_brxlv")
+
+[node name="sol" type="MeshInstance2D" parent="." unique_id=1499298632]
+modulate = Color(1, 0.8117647, 0, 1)
+position = Vector2(1103, 74)
+mesh = SubResource("SphereMesh_8w0r3")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=367878708]
+position = Vector2(1099, 85)
+color = Color(1, 1, 1, 0)
+texture = ExtResource("3_en1gt")
+texture_scale = 3.5
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1390839956]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=598796535]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=1577207118]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=1211746601]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=819056376]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("4_stbsj")
+theme_override_font_sizes/font_size = 32
+text = "-O que é evento extremo?-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1064332801]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_ejcyd")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=460678432]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("5_l1ck0")
+theme_override_fonts/bold_font = ExtResource("5_l1ck0")
+theme_override_fonts/bold_italics_font = ExtResource("5_l1ck0")
+theme_override_fonts/italics_font = ExtResource("5_l1ck0")
+theme_override_fonts/mono_font = ExtResource("5_l1ck0")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "	Não é só calor/chuva forte. É quando o clima fica muito acima ou abaixo da média de 30 anos da região, nos 5% mais intensos já registrados.
+	O aquecimento não cria o evento, mas deixa ele mais frequente e mais forte. A cada 1°C a mais, a atmosfera segura 7% mais vapor d'água.
+
+.Os 5 grupos
+- Onda de calor/frio: Calor = 5 dias com 5°C acima da média. Mata mais que enchente. Frio = massa polar, geada negra mata plantação no Sul/Sudeste.
+- Seca: A mais lenta. Começa na chuva, vira falta na lavoura e termina com reservatório vazio. No Semiárido já foi de 6 pra 9 meses.
+- Enchente: Chove +80mm em 1h em cidade impermeabilizada = água não infiltra. É o desastre mais caro do Brasil.
+- Ciclone: Antes não tinha no Atlântico Sul. Depois do Catarina em 2004, tem 1 a 2 por ano. Vento de 120 km/h.
+- Incêndio: 99% começa com ação humana. Pantanal perdeu 30% em 2020."
+fit_content = true
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=212484969]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=1677725938]
+libraries/ = SubResource("AnimationLibrary_sy5s4")
+autoplay = &"fade-in"
+
+[node name="TermometroPixelArt" type="Sprite2D" parent="." unique_id=635745540]
+position = Vector2(887, 69)
+scale = Vector2(4, 4)
+texture = ExtResource("6_l1ck0")
+region_enabled = true
+region_rect = Rect2(128, 0, 16, 32)
+
+[node name="page-owner" type="Label" parent="." unique_id=1774402626]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Carlos Bruno"

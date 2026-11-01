@@ -1,0 +1,583 @@
+[gd_scene format=3 uid="uid://b83nefjpupila"]
+
+[ext_resource type="Script" uid="uid://b5i01ul6j5sv4" path="res://scripts/page_13_evento_extremo_desastre.gd" id="1_jqo8i"]
+[ext_resource type="Texture2D" uid="uid://cqtpwrepfm0uo" path="res://data/assets/house2.png" id="1_pjuga"]
+[ext_resource type="Texture2D" uid="uid://c6jqalvgfwmf4" path="res://data/assets/house.png" id="2_jqo8i"]
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="3_e5h4i"]
+[ext_resource type="Texture2D" uid="uid://bt00sed7om8vr" path="res://data/assets/Clouds/cloud.png" id="4_itdu6"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="5_mwt74"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="6_cdesn"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8w0r3"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_oaqdp"]
+particle_flag_disable_z = true
+initial_velocity_min = -25.0
+initial_velocity_max = -10.0
+gravity = Vector3(0, 98, 0)
+scale_min = 0.0
+scale_max = 10.0
+color = Color(0, 0, 1, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8qa0r"]
+
+[sub_resource type="Animation" id="Animation_ixllm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_ec7ai"]
+resource_name = "fade-in"
+length = 2.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_e4hjw"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pjuga"]
+_data = {
+&"RESET": SubResource("Animation_ixllm"),
+&"fade-in": SubResource("Animation_ec7ai"),
+&"fade-out": SubResource("Animation_e4hjw")
+}
+
+[sub_resource type="Animation" id="Animation_pjuga"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(566.99994, 776.00006)]
+}
+
+[sub_resource type="Animation" id="Animation_jqo8i"]
+resource_name = "oia a agua"
+length = 6.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MeshInstance2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(566.99994, 776.00006), Vector2(558, 549.00006)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e5h4i"]
+_data = {
+&"RESET": SubResource("Animation_pjuga"),
+&"oia a agua": SubResource("Animation_jqo8i")
+}
+
+[sub_resource type="BoxMesh" id="BoxMesh_h4t55"]
+
+[node name="page_13_evento_extremo-desastre" type="Node2D" unique_id=1950786186]
+script = ExtResource("1_jqo8i")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1012486246]
+offset_left = -1096.0
+offset_top = -632.0
+offset_right = 2422.0
+offset_bottom = 941.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="ground" type="Node2D" parent="." unique_id=1194365050]
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="ground" unique_id=1189062344]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(191.99998, 493.00003)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D3" type="MeshInstance2D" parent="ground" unique_id=1950785330]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(475, 514.00006)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D4" type="MeshInstance2D" parent="ground" unique_id=1381169072]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(784, 493.00003)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D5" type="MeshInstance2D" parent="ground" unique_id=845852534]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(1046, 489)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="ground" unique_id=1909352826]
+modulate = Color(0, 0.7882353, 0, 1)
+position = Vector2(571.87494, 581.125)
+scale = Vector2(1163.7499, 134.24997)
+mesh = SubResource("BoxMesh_8w0r3")
+
+[node name="cenario" type="Node2D" parent="." unique_id=1626902590]
+
+[node name="House2" type="Sprite2D" parent="cenario" unique_id=1542720708]
+position = Vector2(50, 516)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_pjuga")
+
+[node name="House3" type="Sprite2D" parent="cenario" unique_id=725016101]
+position = Vector2(1033, 496)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_pjuga")
+
+[node name="House4" type="Sprite2D" parent="cenario" unique_id=36918424]
+position = Vector2(718, 535)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_pjuga")
+
+[node name="House" type="Sprite2D" parent="cenario" unique_id=1134275264]
+position = Vector2(309, 535)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("2_jqo8i")
+
+[node name="House5" type="Sprite2D" parent="cenario" unique_id=1633727990]
+position = Vector2(554, 499)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("2_jqo8i")
+
+[node name="House6" type="Sprite2D" parent="cenario" unique_id=24037872]
+position = Vector2(896, 520)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("2_jqo8i")
+
+[node name="HomiAndando" type="Sprite2D" parent="cenario" unique_id=1026381507]
+position = Vector2(43, 537)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="HomiAndando2" type="Sprite2D" parent="cenario" unique_id=1989620064]
+position = Vector2(299, 554)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="HomiAndando3" type="Sprite2D" parent="cenario" unique_id=1034595830]
+position = Vector2(548, 518)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="HomiAndando4" type="Sprite2D" parent="cenario" unique_id=915536695]
+position = Vector2(709, 555)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="HomiAndando5" type="Sprite2D" parent="cenario" unique_id=1452888055]
+position = Vector2(860, 538)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="HomiAndando6" type="Sprite2D" parent="cenario" unique_id=656766596]
+position = Vector2(1024, 518)
+scale = Vector2(3, 3)
+texture = ExtResource("3_e5h4i")
+
+[node name="nuvens" type="Node2D" parent="." unique_id=750683349]
+
+[node name="particles" type="Node2D" parent="nuvens" unique_id=504419052]
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="nuvens/particles" unique_id=1168165645]
+position = Vector2(39, 309)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="nuvens/particles" unique_id=439014482]
+position = Vector2(70, 306)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="nuvens/particles" unique_id=1696275435]
+position = Vector2(110, 307)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D4" type="GPUParticles2D" parent="nuvens/particles" unique_id=1288159415]
+position = Vector2(132, 306)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D5" type="GPUParticles2D" parent="nuvens/particles" unique_id=1545757937]
+position = Vector2(168, 306)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D6" type="GPUParticles2D" parent="nuvens/particles" unique_id=751295597]
+position = Vector2(206, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D7" type="GPUParticles2D" parent="nuvens/particles" unique_id=626724815]
+position = Vector2(252, 303)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D8" type="GPUParticles2D" parent="nuvens/particles" unique_id=420272019]
+position = Vector2(305, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D9" type="GPUParticles2D" parent="nuvens/particles" unique_id=204694324]
+position = Vector2(353, 301)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D10" type="GPUParticles2D" parent="nuvens/particles" unique_id=1327729294]
+position = Vector2(405, 301)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D11" type="GPUParticles2D" parent="nuvens/particles" unique_id=1802214295]
+position = Vector2(445, 300)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D12" type="GPUParticles2D" parent="nuvens/particles" unique_id=1728364029]
+position = Vector2(472, 297)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D13" type="GPUParticles2D" parent="nuvens/particles" unique_id=356751594]
+position = Vector2(513, 298)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D14" type="GPUParticles2D" parent="nuvens/particles" unique_id=1701077937]
+position = Vector2(555, 297)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D15" type="GPUParticles2D" parent="nuvens/particles" unique_id=587736180]
+position = Vector2(592, 294)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D16" type="GPUParticles2D" parent="nuvens/particles" unique_id=57357813]
+position = Vector2(622, 294)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D17" type="GPUParticles2D" parent="nuvens/particles" unique_id=528078175]
+position = Vector2(660, 297)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D18" type="GPUParticles2D" parent="nuvens/particles" unique_id=1643808340]
+position = Vector2(704, 298)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D19" type="GPUParticles2D" parent="nuvens/particles" unique_id=1384440722]
+position = Vector2(744, 305)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D20" type="GPUParticles2D" parent="nuvens/particles" unique_id=1231805692]
+position = Vector2(772, 304)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D21" type="GPUParticles2D" parent="nuvens/particles" unique_id=451359874]
+position = Vector2(808, 304)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D22" type="GPUParticles2D" parent="nuvens/particles" unique_id=1215332684]
+position = Vector2(840, 304)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D23" type="GPUParticles2D" parent="nuvens/particles" unique_id=1265267908]
+position = Vector2(882, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D24" type="GPUParticles2D" parent="nuvens/particles" unique_id=1038189373]
+position = Vector2(926, 301)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D25" type="GPUParticles2D" parent="nuvens/particles" unique_id=785152091]
+position = Vector2(963, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D26" type="GPUParticles2D" parent="nuvens/particles" unique_id=1568429527]
+position = Vector2(1010, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D27" type="GPUParticles2D" parent="nuvens/particles" unique_id=384525694]
+position = Vector2(1088, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D28" type="GPUParticles2D" parent="nuvens/particles" unique_id=1246527368]
+position = Vector2(1046, 302)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="GPUParticles2D29" type="GPUParticles2D" parent="nuvens/particles" unique_id=445804449]
+position = Vector2(1123, 304)
+amount = 16
+lifetime = 3.0
+process_material = SubResource("ParticleProcessMaterial_oaqdp")
+
+[node name="Cloud" type="Sprite2D" parent="nuvens" unique_id=324134484]
+modulate = Color(0.60933006, 0.6093301, 0.60933006, 1)
+position = Vector2(203, 158)
+texture = ExtResource("4_itdu6")
+
+[node name="Cloud2" type="Sprite2D" parent="nuvens" unique_id=811927631]
+modulate = Color(0.60933006, 0.6093301, 0.60933006, 1)
+position = Vector2(547, 154)
+texture = ExtResource("4_itdu6")
+
+[node name="Cloud3" type="Sprite2D" parent="nuvens" unique_id=922266290]
+modulate = Color(0.60933006, 0.6093301, 0.60933006, 1)
+position = Vector2(926, 165)
+texture = ExtResource("4_itdu6")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=633205864]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1342444073]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=82189457]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=1435736162]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=1442132543]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("5_mwt74")
+theme_override_font_sizes/font_size = 32
+text = "-Evento Extremo ≠ Desastre-"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=504148575]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_8qa0r")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=661377898]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("6_cdesn")
+theme_override_fonts/bold_font = ExtResource("6_cdesn")
+theme_override_fonts/bold_italics_font = ExtResource("6_cdesn")
+theme_override_fonts/italics_font = ExtResource("6_cdesn")
+theme_override_fonts/mono_font = ExtResource("6_cdesn")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "- Evento = fenômeno físico, neutro.
+- Desastre = impacto social. Precisa de 3 coisas: Ameaça + Exposição (morar em encosta/várzea) + Vulnerabilidade (sem defesa civil, sem estrutura).
+
+Por isso a ONU não fala mais \"desastre natural\". Tóquio recebe tufão e tem 2 mortes, cidade sem infra tem 200 com a mesma chuva.
+
+.Consequências em cascata
+- População: Doenças depois do evento: leptospirose pós-enchente, asma pós-fumaça. 2 milhões de desabrigados/ano no Brasil. Quem mais sofre: periferia, zona rural e indígenas.
+- Natureza: Mata queimada leva 50 anos pra voltar.
+- Economia: Brasil perde 2,5% do PIB por ano. É o preço do café e do leite subindo por causa da seca de meses atrás."
+fit_content = true
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1114278671]
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=1877951886]
+libraries/ = SubResource("AnimationLibrary_pjuga")
+autoplay = &"fade-in"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1835227995]
+libraries/ = SubResource("AnimationLibrary_e5h4i")
+autoplay = &"oia a agua"
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=463613183]
+modulate = Color(0, 0.54509807, 1, 1)
+position = Vector2(566.99994, 776.00006)
+scale = Vector2(1228.5001, 178.99998)
+mesh = SubResource("BoxMesh_h4t55")
+
+[node name="page-owner" type="Label" parent="." unique_id=752000675]
+offset_left = 5.0
+offset_top = 617.0
+offset_right = 90.0
+offset_bottom = 640.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Textos por: Carlos Bruno"
