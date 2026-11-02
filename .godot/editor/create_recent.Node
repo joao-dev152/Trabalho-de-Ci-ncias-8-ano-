@@ -1,11 +1,11 @@
+Label
+AnimationPlayer
 Node2D
 ScrollContainer
 MeshInstance2D
-AnimationPlayer
 CanvasModulate
 PointLight2D
 ColorRect
-Label
 Polygon2D
 Line2D
 HBoxContainer
