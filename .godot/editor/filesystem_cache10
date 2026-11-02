@@ -1,9 +1,9 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793545325
+::res://::1793619616
 icon.svg::CompressedTexture2D::3412666571687707852::1793545270::1793545325::1::::<><><>0<>0<>ec4ecb5c785ac4f4c2be5ac90e64171b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://data/::1793545270
 button-theme.tres::Theme::805352178042960999::1793545270::0::1::::<><><>0<>0<><>::uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-::res://data/assets/::1793546301
+::res://data/assets/::1793556626
 earth.png::CompressedTexture2D::2891532285154471018::1793545270::1793545326::1::::<><><>0<>0<>11871afa1c573273c8150c55202f083d<>res://.godot/imported/earth.png-39d12002ad71f2118e063479d091b6f7.ctex::
 guarda_chuva_do_hom_andando.png::CompressedTexture2D::6311938814375910856::1793545270::1793545326::1::::<><><>0<>0<>ae22e96dc3f75dd6a7419d7272c2911b<>res://.godot/imported/guarda_chuva_do_hom_andando.png-10bead4f49cec105196867d5f13560d0.ctex::
 homi_andando.png::CompressedTexture2D::7588775125800739548::1793545270::1793545326::1::::<><><>0<>0<>d2a268a16900a62a70f4c824b038bb77<>res://.godot/imported/homi_andando.png-8f7f2cb769fb5fe9dc5ea21d441a9d0b.ctex::
@@ -52,13 +52,13 @@ textos.txt::TextFile::-1::1793545270::0::1::::<><><>0<>0<><>::
 page_10_mudanças_climaticas.tscn::PackedScene::4980817835360236605::1793545270::0::1::::<><><>0<>0<><>::uid://b8qfkan8rm45y::::res://scripts/page_10_mudanças_climaticas.gd<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 page_11_aquecimento_global.tscn::PackedScene::6677844962015858164::1793545633::0::1::::<><><>0<>0<><>::uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://bhgxd5dui3u1g::::res://data/assets/earth.png<>uid://cmhqn1c5e3km4::::res://scripts/page_11_aquecimento_global.gd<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 textos.txt::TextFile::-1::1793545270::0::1::::<><><>0<>0<><>::
-::res://páginas/7. Carlos Bruno/::1793546075
-page_12_o_que_e_o_evento_extremo.tscn::PackedScene::4611142846238885566::1793546023::0::1::::<><><>0<>0<><>::uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://cng8hjfdgmjjx::::res://data/assets/light2D-gradient.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
-page_13_evento_extremo_desastre.tscn::PackedScene::4761251842172274798::1793546075::0::1::::<><><>0<>0<><>::
+::res://páginas/7. Carlos Bruno/::1793548028
+page_12_o_que_e_o_evento_extremo.tscn::PackedScene::4611142846238885566::1793548023::0::1::::<><><>0<>0<><>::uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://dcx1es4o4do3l::::res://scripts/page_12_o_que_e_o_evento_extremo.gd<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://cng8hjfdgmjjx::::res://data/assets/light2D-gradient.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf<>uid://bw8ojwn4h73hl::::res://data/assets/termometro-pixel-art.png
+page_13_evento_extremo_desastre.tscn::PackedScene::4761251842172274798::1793548028::0::1::::<><><>0<>0<><>::uid://b5i01ul6j5sv4::::res://scripts/page_13_evento_extremo_desastre.gd<>uid://cqtpwrepfm0uo::::res://data/assets/house2.png<>uid://c6jqalvgfwmf4::::res://data/assets/house.png<>uid://dgecauljq8sqm::::res://data/assets/homi_andando.png<>uid://bt00sed7om8vr::::res://data/assets/Clouds/cloud.png<>uid://depdhimw2e5w5::::res://data/assets/fnt/Isometra-Regular.ttf<>uid://d1ujonbwls6ft::::res://data/assets/fnt/Oswald-VariableFont_wght.ttf
 textos.txt::TextFile::-1::1793545270::0::1::::<><><>0<>0<><>::
 ::res://páginas/8. João Guilherme/::1793545270
 textos.txt::TextFile::-1::1793545270::0::1::::<><><>0<>0<><>::
-::res://scripts/::1793545987
+::res://scripts/::1793548023
 page_1_previsao_do_tempo.gd::GDScript::3391060474847098643::1793545270::0::1::::<>Node2D<><>0<>0<><>::
 page_2_temperatura_e_nebulosidade.gd::GDScript::6710372493574990290::1793545270::0::1::::<>Node2D<><>0<>0<><>::
 page_3_tipos_de_nuvens.gd::GDScript::7839084739713070957::1793545270::0::1::::<>Node2D<><>0<>0<><>::
@@ -70,5 +70,7 @@ page_8_ventos.gd::GDScript::2894465611998886859::1793545270::0::1::::<>Node2D<><
 page_9_massas_de_ar_e_frentes.gd::GDScript::998655942671750240::1793545270::0::1::::<>Node2D<><>0<>0<><>::
 page_10_mudanças_climaticas.gd::GDScript::4736004032321057752::1793545270::0::1::::<>Node2D<><>0<>0<><>::
 page_11_aquecimento_global.gd::GDScript::5630554192592269373::1793545987::0::1::::<>Node2D<><>0<>0<><>::
+page_12_o_que_e_o_evento_extremo.gd::GDScript::7348707202580905827::1793548002::0::1::::<>Node2D<><>0<>0<><>::
+page_13_evento_extremo_desastre.gd::GDScript::4510166439208816975::1793548023::0::1::::<>Node2D<><>0<>0<><>::
 particle_group_control.gd::GDScript::6257308880142776892::1793545270::0::1::::<>Node2D<><>0<>1<><>::
 tittle_screen.gd::GDScript::7258624445339998002::1793545270::0::1::::<>Node2D<><>0<>0<><>::

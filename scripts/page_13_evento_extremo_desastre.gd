@@ -17,11 +17,11 @@ func _input(event: InputEvent) -> void:
 		await fade.animation_finished
 		get_tree().change_scene_to_file("res://páginas/7. Carlos Bruno/page_12_o_que_e_o_evento_extremo.tscn")
 	
-	#if event.is_action_pressed("right-down") and _has_started and !_is_turning_page:
-		#fade.play("fade-out")
-		#_is_turning_page = true
-		#await fade.animation_finished
-		#get_tree().change_scene_to_file("")
+	if event.is_action_pressed("right-down") and _has_started and !_is_turning_page:
+		fade.play("fade-out")
+		_is_turning_page = true
+		await fade.animation_finished
+		get_tree().change_scene_to_file("res://páginas/8. João Guilherme/page_14_desigualdade_climatica.tscn")
 
 
 func _on_fade_animation_finished(anim_name: StringName) -> void:

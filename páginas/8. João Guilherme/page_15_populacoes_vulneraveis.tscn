@@ -1,0 +1,398 @@
+[gd_scene format=3 uid="uid://877rwxtq4th7"]
+
+[ext_resource type="Script" uid="uid://bfqgn6piaq5cw" path="res://scripts/page_15_populacoes_vulneraveis.gd" id="1_302db"]
+[ext_resource type="FontFile" uid="uid://depdhimw2e5w5" path="res://data/assets/fnt/Isometra-Regular.ttf" id="1_px2qf"]
+[ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_1mbdo"]
+[ext_resource type="Texture2D" uid="uid://cng8hjfdgmjjx" path="res://data/assets/light2D-gradient.png" id="3_803lu"]
+[ext_resource type="Texture2D" uid="uid://bw8ojwn4h73hl" path="res://data/assets/termometro-pixel-art.png" id="4_302db"]
+[ext_resource type="Texture2D" uid="uid://cqtpwrepfm0uo" path="res://data/assets/house2.png" id="5_q5ta7"]
+[ext_resource type="Texture2D" uid="uid://c6jqalvgfwmf4" path="res://data/assets/house.png" id="6_kra06"]
+[ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="7_m000n"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bygmv"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_rsvuw"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_4d7y4"]
+radius = 200.0
+height = 400.0
+
+[sub_resource type="Animation" id="Animation_ixllm"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/ScrollContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PointLight2D:energy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="Animation" id="Animation_ec7ai"]
+resource_name = "fade-in"
+length = 2.5000000000000004
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/ScrollContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PointLight2D:energy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_pya4q"]
+resource_name = "fade-out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasModulate:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/Label:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CanvasLayer/Control/MarginContainer/VBoxContainer/ScrollContainer/RichTextLabel:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PointLight2D:energy")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sryaf"]
+_data = {
+&"RESET": SubResource("Animation_ixllm"),
+&"fade-in": SubResource("Animation_ec7ai"),
+&"fade-out": SubResource("Animation_pya4q")
+}
+
+[node name="page_15_populacoes_vulneraveis" type="Node2D" unique_id=672434077]
+script = ExtResource("1_302db")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2021654154]
+offset_left = -1096.0
+offset_top = -632.0
+offset_right = 2422.0
+offset_bottom = 941.0
+color = Color(0.13333334, 0.6156863, 0.9490196, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=898403933]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1558435991]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/Control" unique_id=170636990]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control/MarginContainer" unique_id=1242414828]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=687263943]
+custom_maximum_size = Vector2(1056, -1)
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("1_px2qf")
+theme_override_font_sizes/font_size = 32
+text = "-Por que populações mais vulneráveis sentem mais os efeitos das ondas de calor extremo?-"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=2134467116]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/separator = SubResource("StyleBoxEmpty_bygmv")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer/Control/MarginContainer/VBoxContainer" unique_id=506943690]
+custom_minimum_size = Vector2(256, 256)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control/MarginContainer/VBoxContainer/ScrollContainer" unique_id=1467865417]
+custom_maximum_size = Vector2(660, -1)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/normal_font = ExtResource("2_1mbdo")
+theme_override_fonts/bold_font = ExtResource("2_1mbdo")
+theme_override_fonts/bold_italics_font = ExtResource("2_1mbdo")
+theme_override_fonts/italics_font = ExtResource("2_1mbdo")
+theme_override_fonts/mono_font = ExtResource("2_1mbdo")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "	O calor extremo ode ser um grande desafio para a saúde, principalmente para pessoas que vivem em situações de vulnerabilidade social e econômica. A seguir, vamos ver como algumas pessoas lidam com as ondas de calor extremo e os obstáculos enfrentados por elas:
+.Teto que esquenta:
+	Uma das principais causas do aumento da temperatura em ambientes internos é o uso de materiais de baixa qualidade e isolamento térmico, como tehas de metal, plástico ou amianto. Esses são materiais que absorvem e irradiam muito calor, o que faz com que oo interior das casas esquente muito durante o dia e demore a esfriar durante a noite. O que dificulta o sono e o descanso das pessoas, além de aumentar o risco de desidratação, insolação e hipertermia.
+.Barracas na rua:
+	As pessoas que vivem em situação de rua também sofrem muito com ondas de calor extremos, isso ocorre pois não possuem um abrigo adequado para proteger-se do sol e do calor. Na maioria das vezes, elas usam barracas ou lonas improvisadas, que absorvem, também, mais calor e não oferecem ventilação. Além disso, estão mais expostas à poluição, ao ruído e à violência urbana, o que pode agravar o estresse e a ansiedade causados pelo calor.
+.Falta de energia elétrica:
+	A energia elétrica também é um recurso importante para diminuir os efeitos das ondas de calor extremos, permitindo o uso de ventiladores, geladeira e outros eletrodomésticos que geram conforto e convervam os alimentos.
+.Qual a importância da moradia digna para a diminuição dos efeitos da desigualdade climática:
+	A moradia digna é uma forma de reduzir os efeitos da desigualdade climática ao oferecer às pessoas condições mínimas de conforto, segurança, higiene e saúde.
+"
+fit_content = true
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=622315538]
+position = Vector2(-1096, -632)
+
+[node name="ground" type="Node2D" parent="." unique_id=700103009]
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="ground" unique_id=1594027031]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(191.99998, 493.00003)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_rsvuw")
+
+[node name="MeshInstance2D3" type="MeshInstance2D" parent="ground" unique_id=340886961]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(475, 514.00006)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_rsvuw")
+
+[node name="MeshInstance2D4" type="MeshInstance2D" parent="ground" unique_id=11047924]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(784, 493.00003)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_rsvuw")
+
+[node name="MeshInstance2D5" type="MeshInstance2D" parent="ground" unique_id=1077479108]
+modulate = Color(0, 0.59607846, 0, 1)
+position = Vector2(1046, 489)
+rotation = -0.7853982
+scale = Vector2(355.75003, 393.24997)
+mesh = SubResource("BoxMesh_rsvuw")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="ground" unique_id=903693001]
+modulate = Color(0, 0.7882353, 0, 1)
+position = Vector2(571.87494, 581.125)
+scale = Vector2(1163.7499, 134.24997)
+mesh = SubResource("BoxMesh_rsvuw")
+
+[node name="sol" type="MeshInstance2D" parent="." unique_id=826585782]
+modulate = Color(1, 0.8117647, 0, 1)
+position = Vector2(1103, 74)
+mesh = SubResource("SphereMesh_4d7y4")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1909459380]
+position = Vector2(1099, 85)
+texture = ExtResource("3_803lu")
+texture_scale = 3.5
+
+[node name="fade" type="AnimationPlayer" parent="." unique_id=416749747]
+libraries/ = SubResource("AnimationLibrary_sryaf")
+autoplay = &"fade-in"
+
+[node name="cenario" type="Node2D" parent="." unique_id=2145199152]
+
+[node name="TermometroPixelArt" type="Sprite2D" parent="cenario" unique_id=1622156120]
+position = Vector2(931, 500)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(80, 0, 16, 32)
+
+[node name="TermometroPixelArt2" type="Sprite2D" parent="cenario" unique_id=1485263977]
+position = Vector2(348, 502)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(80, 0, 16, 32)
+
+[node name="TermometroPixelArt3" type="Sprite2D" parent="cenario" unique_id=238610158]
+position = Vector2(583, 478)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(80, 0, 16, 32)
+
+[node name="TermometroPixelArt4" type="Sprite2D" parent="cenario" unique_id=216672300]
+position = Vector2(84, 492)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(160, 0, 16, 32)
+
+[node name="TermometroPixelArt5" type="Sprite2D" parent="cenario" unique_id=1047150028]
+position = Vector2(753, 497)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(160, 0, 16, 32)
+
+[node name="TermometroPixelArt6" type="Sprite2D" parent="cenario" unique_id=805566255]
+position = Vector2(1066, 456)
+texture = ExtResource("4_302db")
+region_enabled = true
+region_rect = Rect2(160, 0, 16, 32)
+
+[node name="House2" type="Sprite2D" parent="cenario" unique_id=1966169375]
+position = Vector2(50, 516)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("5_q5ta7")
+
+[node name="House3" type="Sprite2D" parent="cenario" unique_id=1774576526]
+position = Vector2(1033, 496)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("5_q5ta7")
+
+[node name="House4" type="Sprite2D" parent="cenario" unique_id=799752368]
+position = Vector2(718, 535)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("5_q5ta7")
+
+[node name="House" type="Sprite2D" parent="cenario" unique_id=1087847192]
+position = Vector2(309, 535)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("6_kra06")
+
+[node name="House5" type="Sprite2D" parent="cenario" unique_id=1360749056]
+position = Vector2(554, 499)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("6_kra06")
+
+[node name="House6" type="Sprite2D" parent="cenario" unique_id=2086272029]
+position = Vector2(896, 520)
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("6_kra06")
+
+[node name="HomiAndando6" type="Sprite2D" parent="cenario" unique_id=2041342604]
+position = Vector2(1024, 518)
+scale = Vector2(3, 3)
+texture = ExtResource("7_m000n")

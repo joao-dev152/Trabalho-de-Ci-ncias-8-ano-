@@ -1,7 +1,8 @@
+Node2D
+ScrollContainer
 MeshInstance2D
 AnimationPlayer
 CanvasModulate
-Node2D
 PointLight2D
 ColorRect
 Label
@@ -11,4 +12,3 @@ HBoxContainer
 HScrollBar
 GPUParticles2D
 VideoStreamPlayer
-Node
