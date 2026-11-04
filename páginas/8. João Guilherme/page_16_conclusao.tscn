@@ -5,6 +5,7 @@
 [ext_resource type="FontFile" uid="uid://d1ujonbwls6ft" path="res://data/assets/fnt/Oswald-VariableFont_wght.ttf" id="2_j8ebg"]
 [ext_resource type="Texture2D" uid="uid://bhgxd5dui3u1g" path="res://data/assets/earth.png" id="4_nx77h"]
 [ext_resource type="Texture2D" uid="uid://dgecauljq8sqm" path="res://data/assets/homi_andando.png" id="5_lr2b1"]
+[ext_resource type="Texture2D" uid="uid://cxsx7xl1evbat" path="res://data/assets/fireball.png" id="6_lr2b1"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lnskq"]
 
@@ -315,6 +316,30 @@ tracks/5/keys = {
 "update": 1,
 "values": ["-Conclusão: o que aprendemos sobre a Meteorologia e as mudanças climáticas.-"]
 }
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimatedSprite2D:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1321, 61)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("CanvasLayer2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="Animation" id="Animation_lr2b1"]
 resource_name = "fim"
@@ -374,10 +399,10 @@ tracks/4/path = NodePath("CanvasModulate:color")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
+"times": PackedFloat32Array(0, 8.015988, 8.066667),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Color(1, 1, 1, 1)]
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(0.39308554, 0.3930855, 0.39308548, 1)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -391,6 +416,30 @@ tracks/5/keys = {
 "update": 1,
 "values": ["-Conclusão: o que aprendemos sobre a Meteorologia e as mudanças climáticas.-", "-O fim!-"]
 }
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AnimatedSprite2D:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 2.02, 8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1321, 61), Vector2(1321, 61), Vector2(871, 251.99998)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("CanvasLayer2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 8.207934),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ir7ur"]
 _data = {
@@ -398,8 +447,44 @@ _data = {
 &"fim": SubResource("Animation_lr2b1")
 }
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_ir7ur"]
+atlas = ExtResource("6_lr2b1")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5rvy"]
+atlas = ExtResource("6_lr2b1")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lropd"]
+atlas = ExtResource("6_lr2b1")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8w0r3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ir7ur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5rvy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lropd")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="page_16_conclusao" type="Node2D" unique_id=282565526]
 script = ExtResource("1_j8ebg")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1374711206]
+offset_left = -1096.0
+offset_top = -632.0
+offset_right = 2422.0
+offset_bottom = 941.0
+color = Color(0.07481397, 0.036890574, 0.18846709, 1)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=790850968]
 
@@ -576,3 +661,38 @@ text = "Textos por: João Guilherme"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1483751363]
 libraries/ = SubResource("AnimationLibrary_ir7ur")
+speed_scale = 0.5
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1924286865]
+position = Vector2(1321, 61)
+scale = Vector2(10, 10)
+sprite_frames = SubResource("SpriteFrames_8w0r3")
+autoplay = "default"
+frame_progress = 0.8193041
+
+[node name="HomiAndando" type="Sprite2D" parent="AnimatedSprite2D" unique_id=494995131]
+position = Vector2(1.1000001, -7.3999977)
+texture = ExtResource("5_lr2b1")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1836126555]
+visible = false
+
+[node name="Label" type="Label" parent="CanvasLayer2" unique_id=854301169]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = -8
+theme_override_constants/shadow_offset_y = 7
+theme_override_fonts/font = ExtResource("1_bjkt5")
+theme_override_font_sizes/font_size = 30
+text = "To Be Continued
+"

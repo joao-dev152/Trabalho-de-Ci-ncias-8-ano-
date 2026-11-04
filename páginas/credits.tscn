@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dqjki05e7157c"]
+
+[node name="credits" type="Control" unique_id=1182452709]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2042396222]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer" unique_id=1875189669]
+layout_mode = 2
+bbcode_enabled = true
+text = "[b]CRÉDITOS[/b]
+
+
+Ferramenta criada por: João Guilherme
+
+Textos:
+.Página 1: introdução - Alana
+.Página 2: previsão do tempo - Alana
+.Página 3: temperatura e nebulosidade - Anna Luiza
+.Página 4: tipos de nuvens - Anna Luiza
+.Página 5: experimento - Anna Luiza
+.Página 6: precipitação - Cecília
+.Página 7: umidade do ar - Cecília
+.Página 8: pressão atmosférica - Cecília
+.Página 9: ventos - Clarice
+.Página 10: massas de ar e frentes - Eduarda
+.Página 11: mudanças climáticas - Samuel
+.Página 12: aquecimento global - Samuel
+.Página 13: o que é o evento extremo - Carlos Bruno
+.Página 14: evento extremo - Carlos Bruno
+.Página 15: desigualdade climática - João Guilherme
+.Página 16: populações vulneráveis - João Guilherme
+.Página 17: conclusão - João Guilherme"
+horizontal_alignment = 1

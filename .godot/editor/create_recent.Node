@@ -1,4 +1,8 @@
+MarginContainer
+RichTextLabel
 Label
+CanvasLayer
+AnimatedSprite2D
 AnimationPlayer
 Node2D
 ScrollContainer
@@ -9,6 +13,3 @@ ColorRect
 Polygon2D
 Line2D
 HBoxContainer
-HScrollBar
-GPUParticles2D
-VideoStreamPlayer
